@@ -1,0 +1,4330 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 245,
+    "major": 5,
+    "minor": 5,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": false,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": false,
+    "orientation": "default",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": true,
+    "projectUuid": "3ed012f8-160a-4a3b-a67d-3c567d94fcba",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "version": "1.0.0",
+    "name": "Mazmorra",
+    "description": "",
+    "author": "",
+    "windowWidth": 480,
+    "windowHeight": 270,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "disablePreload": false,
+        "file": "Nivel01.json",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "Nivel01.json",
+        "userAdded": false
+      },
+      {
+        "file": "CastleTiles.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CastleTiles.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "Mapa de Tejas.json",
+        "kind": "tileset",
+        "metadata": "",
+        "name": "Mapa de Tejas.json",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "Nivel02.json",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "Nivel02.json",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "Nivel03.json",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "Nivel03.json",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "Nivel04.json",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "Nivel04.json",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "Nivel05.json",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "Nivel05.json",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "Nivel06.json",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "Nivel06.json",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "Nivel07.json",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "Nivel07.json",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "Nivel08.json",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "Nivel08.json",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "Nivel09.json",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "Nivel09.json",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "Nivel10.json",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "Nivel10.json",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "Nivel010.json",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "Nivel010.json",
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1.png",
+        "smoothed": false,
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 28,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Nivel1",
+      "name": "Nivel1",
+      "r": 23,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 20,
+      "uiSettings": {
+        "grid": true,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": true,
+        "zoomFactor": 0.5046136101499518,
+        "windowMask": false,
+        "selectedLayer": ""
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MapeoNivel1",
+          "persistentUuid": "7aaaec52-f34a-42a6-8e39-ce2811c4948f",
+          "width": 0,
+          "x": 0,
+          "y": -320,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ColisionMap01",
+          "persistentUuid": "f9259bbf-8ba6-4717-be90-55f53d8c9474",
+          "width": 0,
+          "x": 0,
+          "y": -320,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MapeoNivel2",
+          "persistentUuid": "1a63ee86-8a82-4fc1-8d04-ac487c801951",
+          "width": 0,
+          "x": 1600,
+          "y": -320,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ColisionMap2",
+          "persistentUuid": "f1fbf041-739e-49e3-bb79-a0ded4986ee3",
+          "width": 0,
+          "x": 1600,
+          "y": -320,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MapeoNivel3",
+          "persistentUuid": "487e64b2-7fcb-4221-b973-ec33595e36bf",
+          "width": 0,
+          "x": 3200,
+          "y": -320,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ColisionMap3",
+          "persistentUuid": "024e858e-7d97-40b0-b6ba-b43ccb022b86",
+          "width": 0,
+          "x": 3200,
+          "y": -320,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MapeoNivel4",
+          "persistentUuid": "3ccb30e4-627c-4266-b205-4fca47d1a436",
+          "width": 0,
+          "x": 4672,
+          "y": 160,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ColisionMap4",
+          "persistentUuid": "630d9186-b10d-4bc7-be96-00e7aab473da",
+          "width": 0,
+          "x": 4672,
+          "y": 160,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PJ",
+          "persistentUuid": "b879ffb9-f5d0-4c7e-b45c-8d8b2b5b4362",
+          "width": 64,
+          "x": 64,
+          "y": 128,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 544,
+          "keepRatio": true,
+          "layer": "BK1",
+          "name": "BGCaverna",
+          "persistentUuid": "6dc5fd5a-8df0-471a-a53a-e21cd7b8bdfc",
+          "width": 968,
+          "x": 0,
+          "y": -256,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 1,
+          "customSize": true,
+          "depth": 1.0114942528735633,
+          "height": 542.16091954023,
+          "keepRatio": true,
+          "layer": "BK2",
+          "name": "BGCaverna",
+          "persistentUuid": "d73f1408-cfc0-4e15-886c-e222aaff6f03",
+          "width": 968,
+          "x": -27,
+          "y": -231,
+          "zOrder": 23,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK3",
+          "name": "BGCaverna",
+          "persistentUuid": "d3217c87-fc68-4080-9d1a-1bbe25973f1c",
+          "width": 968,
+          "x": 0,
+          "y": -256,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK3",
+          "name": "BGCaverna",
+          "persistentUuid": "173b598b-90c4-4101-8041-0e7fa255dd74",
+          "width": 968,
+          "x": 0,
+          "y": -256,
+          "zOrder": 25,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK4",
+          "name": "BGCaverna",
+          "persistentUuid": "47caba85-f0c0-4fdc-be8b-90776ded109d",
+          "width": 968,
+          "x": 0,
+          "y": -256,
+          "zOrder": 26,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK5",
+          "name": "BGCaverna",
+          "persistentUuid": "6c506252-fc77-4d91-85bd-c203d29d3ad3",
+          "width": 968,
+          "x": 0,
+          "y": -256,
+          "zOrder": 27,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 5
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK6",
+          "name": "BGCaverna",
+          "persistentUuid": "253b3a99-5ca0-43d5-8f42-0604a15219dd",
+          "width": 968,
+          "x": 0,
+          "y": -256,
+          "zOrder": 28,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 6
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Layer",
+          "name": "BGCaverna",
+          "persistentUuid": "eabea3b6-d965-491f-bf53-2a93c51cf8b4",
+          "width": 0,
+          "x": -256,
+          "y": -448,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 544,
+          "keepRatio": true,
+          "layer": "BK1",
+          "name": "BGCaverna",
+          "persistentUuid": "c1752983-1b09-43ec-b94c-1a928c675520",
+          "width": 968,
+          "x": 952,
+          "y": -256,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 1,
+          "customSize": true,
+          "depth": 1.0114942528735633,
+          "height": 542.16091954023,
+          "keepRatio": true,
+          "layer": "BK2",
+          "name": "BGCaverna",
+          "persistentUuid": "f0506a5f-6c8c-40ae-b929-236fb4bd33af",
+          "width": 968,
+          "x": 925,
+          "y": -231,
+          "zOrder": 23,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK3",
+          "name": "BGCaverna",
+          "persistentUuid": "be55e9b8-8db0-4200-9c53-24e4879a13b4",
+          "width": 968,
+          "x": 952,
+          "y": -256,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK3",
+          "name": "BGCaverna",
+          "persistentUuid": "bc12b28b-e78f-4e44-b788-8bbd72be615e",
+          "width": 968,
+          "x": 952,
+          "y": -256,
+          "zOrder": 25,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK4",
+          "name": "BGCaverna",
+          "persistentUuid": "f709791a-606a-412d-aeef-f76999c932bf",
+          "width": 968,
+          "x": 952,
+          "y": -256,
+          "zOrder": 26,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK5",
+          "name": "BGCaverna",
+          "persistentUuid": "42f6c090-18ee-4c00-a160-1236967b44af",
+          "width": 968,
+          "x": 952,
+          "y": -256,
+          "zOrder": 27,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 5
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK6",
+          "name": "BGCaverna",
+          "persistentUuid": "6a78877f-f65b-41c5-b56a-aca53aafcab0",
+          "width": 968,
+          "x": 952,
+          "y": -256,
+          "zOrder": 28,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 6
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 544,
+          "keepRatio": true,
+          "layer": "BK1",
+          "name": "BGCaverna",
+          "persistentUuid": "d281c8ff-83cf-44b9-9712-8c1066b0e2ae",
+          "width": 968,
+          "x": 1920,
+          "y": -256,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 1,
+          "customSize": true,
+          "depth": 1.0114942528735633,
+          "height": 542.16091954023,
+          "keepRatio": true,
+          "layer": "BK2",
+          "name": "BGCaverna",
+          "persistentUuid": "10f8e222-a471-4c11-9c5d-4f3c6d4e36fc",
+          "width": 968,
+          "x": 1893,
+          "y": -231,
+          "zOrder": 23,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK3",
+          "name": "BGCaverna",
+          "persistentUuid": "be05c3c4-58c4-45f5-a5ea-3862527daca9",
+          "width": 968,
+          "x": 1920,
+          "y": -256,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK3",
+          "name": "BGCaverna",
+          "persistentUuid": "a91b1f79-a9a0-4b60-96ad-290c6861b9eb",
+          "width": 968,
+          "x": 1920,
+          "y": -256,
+          "zOrder": 25,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK4",
+          "name": "BGCaverna",
+          "persistentUuid": "3f950db8-060b-45d7-9629-cd7219a1676c",
+          "width": 968,
+          "x": 1920,
+          "y": -256,
+          "zOrder": 26,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK5",
+          "name": "BGCaverna",
+          "persistentUuid": "49929caa-a73a-4e76-8f6a-bba7cd7bdea3",
+          "width": 968,
+          "x": 1920,
+          "y": -256,
+          "zOrder": 27,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 5
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK6",
+          "name": "BGCaverna",
+          "persistentUuid": "9b36b851-2c2e-4473-b5e5-72aa3320f738",
+          "width": 968,
+          "x": 1920,
+          "y": -256,
+          "zOrder": 28,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 6
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 544,
+          "keepRatio": true,
+          "layer": "BK1",
+          "name": "BGCaverna",
+          "persistentUuid": "06a03f03-22a0-4f41-84d0-7381479323b3",
+          "width": 968,
+          "x": 2904,
+          "y": -256,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 1,
+          "customSize": true,
+          "depth": 1.0114942528735633,
+          "height": 542.16091954023,
+          "keepRatio": true,
+          "layer": "BK2",
+          "name": "BGCaverna",
+          "persistentUuid": "cf60d34a-408d-4df0-8d82-fdbbb5e17381",
+          "width": 968,
+          "x": 2877,
+          "y": -231,
+          "zOrder": 23,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK3",
+          "name": "BGCaverna",
+          "persistentUuid": "91e020d3-f93b-44d4-98af-e83351a53a75",
+          "width": 968,
+          "x": 2904,
+          "y": -256,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK3",
+          "name": "BGCaverna",
+          "persistentUuid": "38c2cbe2-6933-4d80-b58c-3bac1b12a4bf",
+          "width": 968,
+          "x": 2904,
+          "y": -256,
+          "zOrder": 25,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK4",
+          "name": "BGCaverna",
+          "persistentUuid": "7fcc8228-5860-4372-baeb-8db9eda131ff",
+          "width": 968,
+          "x": 2904,
+          "y": -256,
+          "zOrder": 26,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK5",
+          "name": "BGCaverna",
+          "persistentUuid": "25866757-a14a-4631-941d-149433a0a2dc",
+          "width": 968,
+          "x": 2904,
+          "y": -256,
+          "zOrder": 27,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 5
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK6",
+          "name": "BGCaverna",
+          "persistentUuid": "d9b51102-becd-48e5-b4c7-9476204d096a",
+          "width": 968,
+          "x": 2880,
+          "y": -256,
+          "zOrder": 28,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 6
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 544,
+          "keepRatio": true,
+          "layer": "BK1",
+          "name": "BGCaverna",
+          "persistentUuid": "cf4903f4-6154-43b8-b587-2ad5ea963ed1",
+          "width": 968,
+          "x": 3864,
+          "y": -256,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 1,
+          "customSize": true,
+          "depth": 1.0114942528735633,
+          "height": 542.16091954023,
+          "keepRatio": true,
+          "layer": "BK2",
+          "name": "BGCaverna",
+          "persistentUuid": "058dc849-7dc4-4a90-a951-cbb99b15d77a",
+          "width": 968,
+          "x": 3837,
+          "y": -231,
+          "zOrder": 23,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK3",
+          "name": "BGCaverna",
+          "persistentUuid": "567a1c9a-adb9-405d-88e2-e34ba18b279e",
+          "width": 968,
+          "x": 3864,
+          "y": -256,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK3",
+          "name": "BGCaverna",
+          "persistentUuid": "f0ae38b1-2986-4ef8-be5f-d5a6e58091ef",
+          "width": 968,
+          "x": 3864,
+          "y": -256,
+          "zOrder": 25,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK4",
+          "name": "BGCaverna",
+          "persistentUuid": "da1a6963-c5dc-4bce-9d54-53850bca2b5d",
+          "width": 968,
+          "x": 3864,
+          "y": -256,
+          "zOrder": 26,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK5",
+          "name": "BGCaverna",
+          "persistentUuid": "9c325770-963e-471f-a561-266bd10c2f53",
+          "width": 968,
+          "x": 3864,
+          "y": -256,
+          "zOrder": 27,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 5
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK6",
+          "name": "BGCaverna",
+          "persistentUuid": "0426576c-0579-4e64-b41c-30c462d48c1b",
+          "width": 968,
+          "x": 3864,
+          "y": -256,
+          "zOrder": 28,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 6
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 544,
+          "keepRatio": true,
+          "layer": "BK1",
+          "name": "BGCaverna",
+          "persistentUuid": "8314da74-a6ef-4162-b28c-e6f38155c203",
+          "width": 968,
+          "x": 4832,
+          "y": 160,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 1,
+          "customSize": true,
+          "depth": 1.0114942528735633,
+          "height": 542.16091954023,
+          "keepRatio": true,
+          "layer": "BK2",
+          "name": "BGCaverna",
+          "persistentUuid": "429173f6-035c-4927-899e-1dc81eafd416",
+          "width": 968,
+          "x": 4805,
+          "y": 185,
+          "zOrder": 23,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK3",
+          "name": "BGCaverna",
+          "persistentUuid": "61730d14-10aa-4d9d-b5aa-9ebb46b3384f",
+          "width": 968,
+          "x": 4832,
+          "y": 160,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK3",
+          "name": "BGCaverna",
+          "persistentUuid": "6f59b392-2b33-43c6-9d18-0c45b1b0a910",
+          "width": 968,
+          "x": 4832,
+          "y": 160,
+          "zOrder": 25,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK4",
+          "name": "BGCaverna",
+          "persistentUuid": "b3a00ac4-dfc2-4e7b-b852-4fd0a81bd4c4",
+          "width": 968,
+          "x": 4832,
+          "y": 160,
+          "zOrder": 26,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK5",
+          "name": "BGCaverna",
+          "persistentUuid": "ef2494d6-75b5-4830-917f-eee412740172",
+          "width": 968,
+          "x": 4832,
+          "y": 160,
+          "zOrder": 27,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 5
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK6",
+          "name": "BGCaverna",
+          "persistentUuid": "3911bfa7-d0a1-4b6f-a7ed-bd62d92bee2e",
+          "width": 968,
+          "x": 4832,
+          "y": 160,
+          "zOrder": 28,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 6
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 544,
+          "keepRatio": true,
+          "layer": "BK1",
+          "name": "BGCaverna",
+          "persistentUuid": "7b7c36c7-b893-471f-8217-95c9361b9998",
+          "width": 968,
+          "x": 5784,
+          "y": 224,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 1,
+          "customSize": true,
+          "depth": 1.0114942528735633,
+          "height": 542.16091954023,
+          "keepRatio": true,
+          "layer": "BK2",
+          "name": "BGCaverna",
+          "persistentUuid": "c8f3af08-8e5d-48de-b2d2-851d6e20ca9e",
+          "width": 968,
+          "x": 5757,
+          "y": 249,
+          "zOrder": 23,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK3",
+          "name": "BGCaverna",
+          "persistentUuid": "dceb0cbf-2b26-4835-b09d-9a6ad0cb7219",
+          "width": 968,
+          "x": 5784,
+          "y": 224,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK3",
+          "name": "BGCaverna",
+          "persistentUuid": "2cd30ebb-c513-4e33-bd45-e272996b49cf",
+          "width": 968,
+          "x": 5784,
+          "y": 224,
+          "zOrder": 25,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK4",
+          "name": "BGCaverna",
+          "persistentUuid": "535fc816-97d7-42a5-91c6-3f3129e4eba5",
+          "width": 968,
+          "x": 5784,
+          "y": 224,
+          "zOrder": 26,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK5",
+          "name": "BGCaverna",
+          "persistentUuid": "bc71a4a2-1723-4bc4-9bb9-0e1999c41ae2",
+          "width": 968,
+          "x": 5784,
+          "y": 224,
+          "zOrder": 27,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 5
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK6",
+          "name": "BGCaverna",
+          "persistentUuid": "36a952c5-06b4-41ad-a2bc-3872fb85e374",
+          "width": 968,
+          "x": 5784,
+          "y": 224,
+          "zOrder": 28,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 6
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 544,
+          "keepRatio": true,
+          "layer": "BK1",
+          "name": "BGCaverna",
+          "persistentUuid": "4cf2f8e3-01a6-483a-9242-32600d906790",
+          "width": 968,
+          "x": 6744,
+          "y": 224,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 1,
+          "customSize": true,
+          "depth": 1.0114942528735633,
+          "height": 542.16091954023,
+          "keepRatio": true,
+          "layer": "BK2",
+          "name": "BGCaverna",
+          "persistentUuid": "eb41be17-269a-49b5-82ea-29e0209a98fa",
+          "width": 968,
+          "x": 6717,
+          "y": 249,
+          "zOrder": 23,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK3",
+          "name": "BGCaverna",
+          "persistentUuid": "574bd267-2c9a-4dd2-b3a5-e9fa556afd22",
+          "width": 968,
+          "x": 6744,
+          "y": 224,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK3",
+          "name": "BGCaverna",
+          "persistentUuid": "223293ce-1c85-459b-891c-05d5bd42817e",
+          "width": 968,
+          "x": 6744,
+          "y": 224,
+          "zOrder": 25,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK4",
+          "name": "BGCaverna",
+          "persistentUuid": "caf5e44f-6ab4-46b7-8dee-5d482f44b569",
+          "width": 968,
+          "x": 6744,
+          "y": 224,
+          "zOrder": 26,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK5",
+          "name": "BGCaverna",
+          "persistentUuid": "5541399e-a586-4daa-9e2f-7ef3e6128a06",
+          "width": 968,
+          "x": 6744,
+          "y": 224,
+          "zOrder": 27,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 5
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK6",
+          "name": "BGCaverna",
+          "persistentUuid": "800f1a5a-9ba0-4fd1-91fc-dddb89de640e",
+          "width": 968,
+          "x": 6744,
+          "y": 224,
+          "zOrder": 28,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 6
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 544,
+          "keepRatio": true,
+          "layer": "BK1",
+          "name": "BGCaverna",
+          "persistentUuid": "42da4620-5998-4da4-bb99-001b431cdbd0",
+          "width": 968,
+          "x": 7712,
+          "y": 224,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 1,
+          "customSize": true,
+          "depth": 1.0114942528735633,
+          "height": 542.16091954023,
+          "keepRatio": true,
+          "layer": "BK2",
+          "name": "BGCaverna",
+          "persistentUuid": "9052c4d7-9735-4106-ac49-f65bb224b52e",
+          "width": 968,
+          "x": 7685,
+          "y": 249,
+          "zOrder": 23,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK3",
+          "name": "BGCaverna",
+          "persistentUuid": "3f35ff2f-6d22-4fbb-b2e8-1e11db085991",
+          "width": 968,
+          "x": 7712,
+          "y": 224,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK3",
+          "name": "BGCaverna",
+          "persistentUuid": "a732dffb-45dd-41c3-9f03-0b898631a617",
+          "width": 968,
+          "x": 7712,
+          "y": 224,
+          "zOrder": 25,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK4",
+          "name": "BGCaverna",
+          "persistentUuid": "b82a2882-bb09-4ca6-ae54-feeda5e75209",
+          "width": 968,
+          "x": 7712,
+          "y": 224,
+          "zOrder": 26,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK5",
+          "name": "BGCaverna",
+          "persistentUuid": "25462170-f764-4fe1-bf97-2ee1c3fa6b06",
+          "width": 968,
+          "x": 7712,
+          "y": 224,
+          "zOrder": 27,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 5
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK6",
+          "name": "BGCaverna",
+          "persistentUuid": "a0f0e05b-e510-4ef4-83c0-df15fcdd103c",
+          "width": 968,
+          "x": 7712,
+          "y": 224,
+          "zOrder": 28,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 6
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 544,
+          "keepRatio": true,
+          "layer": "BK1",
+          "name": "BGCaverna",
+          "persistentUuid": "a2090f34-9284-4314-ac86-8fa48c58d43e",
+          "width": 968,
+          "x": 8672,
+          "y": 224,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 1,
+          "customSize": true,
+          "depth": 1.0114942528735633,
+          "height": 542.16091954023,
+          "keepRatio": true,
+          "layer": "BK2",
+          "name": "BGCaverna",
+          "persistentUuid": "44763f89-1dec-4a6d-9825-38d6c453a42a",
+          "width": 968,
+          "x": 8645,
+          "y": 249,
+          "zOrder": 23,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK3",
+          "name": "BGCaverna",
+          "persistentUuid": "57a6babc-1ae4-47f1-9ae3-637720d97791",
+          "width": 968,
+          "x": 8672,
+          "y": 224,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK3",
+          "name": "BGCaverna",
+          "persistentUuid": "b1b8fc2b-9891-4eea-9601-e7d19ce2ad2d",
+          "width": 968,
+          "x": 8672,
+          "y": 224,
+          "zOrder": 25,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK4",
+          "name": "BGCaverna",
+          "persistentUuid": "5a5a2af5-44d4-4471-8d53-b5cdfa6dfa39",
+          "width": 968,
+          "x": 8672,
+          "y": 224,
+          "zOrder": 26,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK5",
+          "name": "BGCaverna",
+          "persistentUuid": "5b23bdd9-cdc7-4964-a59a-c5047d171cb3",
+          "width": 968,
+          "x": 8672,
+          "y": 224,
+          "zOrder": 27,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 5
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK6",
+          "name": "BGCaverna",
+          "persistentUuid": "ffdab9ce-d034-48ed-a05c-90fc764ac043",
+          "width": 968,
+          "x": 8672,
+          "y": 224,
+          "zOrder": 28,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 6
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 544,
+          "keepRatio": true,
+          "layer": "BK1",
+          "name": "BGCaverna",
+          "persistentUuid": "1dd86c58-cac2-499b-a7bd-4dc6f1adc13a",
+          "width": 968,
+          "x": 5824,
+          "y": -320,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 1,
+          "customSize": true,
+          "depth": 1.0114942528735633,
+          "height": 542.16091954023,
+          "keepRatio": true,
+          "layer": "BK2",
+          "name": "BGCaverna",
+          "persistentUuid": "f18a1055-fc09-4de7-b004-5d92d9d2621f",
+          "width": 968,
+          "x": 5797,
+          "y": -295,
+          "zOrder": 23,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK3",
+          "name": "BGCaverna",
+          "persistentUuid": "82f26e07-5d52-4cef-a372-a55c3b3b9d5d",
+          "width": 968,
+          "x": 5824,
+          "y": -320,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK3",
+          "name": "BGCaverna",
+          "persistentUuid": "6b761e4f-0a34-425f-b49c-d754a8f3ba87",
+          "width": 968,
+          "x": 5824,
+          "y": -320,
+          "zOrder": 25,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK4",
+          "name": "BGCaverna",
+          "persistentUuid": "d5f6dee2-cb78-467c-977d-7165085a9a54",
+          "width": 968,
+          "x": 5824,
+          "y": -320,
+          "zOrder": 26,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK5",
+          "name": "BGCaverna",
+          "persistentUuid": "e05be2c6-a316-430f-9bba-a99e12587731",
+          "width": 968,
+          "x": 5824,
+          "y": -320,
+          "zOrder": 27,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 5
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK6",
+          "name": "BGCaverna",
+          "persistentUuid": "60b3a34d-3f5b-4bf4-a38b-05695312ab9c",
+          "width": 968,
+          "x": 5824,
+          "y": -320,
+          "zOrder": 28,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 6
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 544,
+          "keepRatio": true,
+          "layer": "BK1",
+          "name": "BGCaverna",
+          "persistentUuid": "5fb78026-fa91-4752-b958-197dd083a01b",
+          "width": 968,
+          "x": 6784,
+          "y": -320,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 1,
+          "customSize": true,
+          "depth": 1.0114942528735633,
+          "height": 542.16091954023,
+          "keepRatio": true,
+          "layer": "BK2",
+          "name": "BGCaverna",
+          "persistentUuid": "d88cde16-9ea3-48f4-b59e-d19c5c08df46",
+          "width": 968,
+          "x": 6757,
+          "y": -295,
+          "zOrder": 23,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK3",
+          "name": "BGCaverna",
+          "persistentUuid": "513fa2ce-c8d0-4c44-a3c8-4a297ac0b88a",
+          "width": 968,
+          "x": 6784,
+          "y": -320,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK3",
+          "name": "BGCaverna",
+          "persistentUuid": "8a54e02f-648b-41ff-9dfc-8ff1a0fa203a",
+          "width": 968,
+          "x": 6784,
+          "y": -320,
+          "zOrder": 25,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK4",
+          "name": "BGCaverna",
+          "persistentUuid": "edfcab63-e05f-49e4-9906-33cf47c8a928",
+          "width": 968,
+          "x": 6784,
+          "y": -320,
+          "zOrder": 26,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK5",
+          "name": "BGCaverna",
+          "persistentUuid": "421f0330-52f3-4408-8f2b-4b51756f799b",
+          "width": 968,
+          "x": 6784,
+          "y": -320,
+          "zOrder": 27,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 5
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK6",
+          "name": "BGCaverna",
+          "persistentUuid": "41e86659-a1e4-4f0b-988b-a97292353c5d",
+          "width": 968,
+          "x": 6784,
+          "y": -320,
+          "zOrder": 28,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 6
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 544,
+          "keepRatio": true,
+          "layer": "BK1",
+          "name": "BGCaverna",
+          "persistentUuid": "d35afe85-d412-4d69-aefb-ef7d8518db4c",
+          "width": 968,
+          "x": 4864,
+          "y": -384,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 1,
+          "customSize": true,
+          "depth": 1.0114942528735633,
+          "height": 542.16091954023,
+          "keepRatio": true,
+          "layer": "BK2",
+          "name": "BGCaverna",
+          "persistentUuid": "633d34c8-adda-4cdf-a439-5e17f4f514a0",
+          "width": 968,
+          "x": 4837,
+          "y": -359,
+          "zOrder": 23,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK3",
+          "name": "BGCaverna",
+          "persistentUuid": "55ec1f7e-947f-4a94-84f8-f321e943bc1e",
+          "width": 968,
+          "x": 4864,
+          "y": -384,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK3",
+          "name": "BGCaverna",
+          "persistentUuid": "b1555ff4-c001-4377-80f7-01c2f8f55873",
+          "width": 968,
+          "x": 4864,
+          "y": -384,
+          "zOrder": 25,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK4",
+          "name": "BGCaverna",
+          "persistentUuid": "666914de-dec1-44f2-93cf-b47f8426d458",
+          "width": 968,
+          "x": 4864,
+          "y": -384,
+          "zOrder": 26,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK5",
+          "name": "BGCaverna",
+          "persistentUuid": "bc6aeece-38a1-4909-b54a-0ea44c85a0af",
+          "width": 968,
+          "x": 4864,
+          "y": -384,
+          "zOrder": 27,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 5
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 544.5,
+          "keepRatio": true,
+          "layer": "BK6",
+          "name": "BGCaverna",
+          "persistentUuid": "8423991f-bfbd-4398-a07f-1f226a26ff19",
+          "width": 968,
+          "x": 4864,
+          "y": -384,
+          "zOrder": 28,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 6
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MapeoNivel5",
+          "persistentUuid": "2dd35284-3ce2-4016-bba4-31a324cca7b6",
+          "width": 0,
+          "x": 6272,
+          "y": 320,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ColisionMap5",
+          "persistentUuid": "e9ca1c2f-3160-4e9e-9c9c-dfd4f6b113b3",
+          "width": 0,
+          "x": 6272,
+          "y": 320,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MapeoNivel6",
+          "persistentUuid": "565980a8-5909-4b86-becb-02808fa85071",
+          "width": 0,
+          "x": 6272,
+          "y": -160,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ColisionMap6",
+          "persistentUuid": "97abd69f-a53a-4d17-bdb1-f79a727f7cd0",
+          "width": 0,
+          "x": 6272,
+          "y": -160,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MapeoNivel7",
+          "persistentUuid": "3a6a1462-cb45-4f27-9641-739e3dae7265",
+          "width": 0,
+          "x": 6912,
+          "y": -160,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ColisionMap7",
+          "persistentUuid": "06e31f6c-e027-4621-b6e4-042ec1502d7f",
+          "width": 0,
+          "x": 6912,
+          "y": -160,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MapeoNivel8",
+          "persistentUuid": "3184a317-2919-4657-bbd4-5d2fca0eb44f",
+          "width": 0,
+          "x": 6912,
+          "y": 320,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ColisionMap8",
+          "persistentUuid": "09255af6-1255-4567-93fd-06f7b455c50d",
+          "width": 0,
+          "x": 6912,
+          "y": 320,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MapeoNivel9",
+          "persistentUuid": "6ab90adc-662f-4db8-93c4-7822dcb11143",
+          "width": 0,
+          "x": 7552,
+          "y": 320,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ColisionMap9",
+          "persistentUuid": "c3049cce-4546-498a-a5bd-54210dafce25",
+          "width": 0,
+          "x": 7552,
+          "y": 320,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MapeoNivel10",
+          "persistentUuid": "89521858-c69d-4b01-b4b1-d41c2b61cc32",
+          "width": 0,
+          "x": 8192,
+          "y": 320,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ColisionMap10",
+          "persistentUuid": "85d84a80-d0e8-40a8-b84f-084e3cabaa81",
+          "width": 0,
+          "x": 8192,
+          "y": 320,
+          "zOrder": 41,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "MapeoNivel1",
+          "type": "TileMap::TileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "tilemapJsonFile": "Nivel01.json",
+            "tilesetJsonFile": "Mapa de Tejas.json",
+            "tilemapAtlasImage": "CastleTiles.png",
+            "displayMode": "visible",
+            "layerIndex": 0,
+            "levelIndex": 0,
+            "animationSpeedScale": 1,
+            "animationFps": 4
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "ColisionMap01",
+          "type": "TileMap::CollisionMask",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ],
+          "content": {
+            "tilemapJsonFile": "Nivel01.json",
+            "tilesetJsonFile": "Mapa de Tejas.json",
+            "collisionMaskTag": "Plataforma",
+            "layerIndex": 1,
+            "useAllLayers": true,
+            "debugMode": false,
+            "fillColor": "255;255;255",
+            "outlineColor": "255;255;255",
+            "fillOpacity": 64,
+            "outlineOpacity": 128,
+            "outlineSize": 1
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "MapeoNivel2",
+          "type": "TileMap::TileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "tilemapJsonFile": "Nivel02.json",
+            "tilesetJsonFile": "Mapa de Tejas.json",
+            "tilemapAtlasImage": "CastleTiles.png",
+            "displayMode": "visible",
+            "layerIndex": 0,
+            "levelIndex": 0,
+            "animationSpeedScale": 1,
+            "animationFps": 4
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "ColisionMap2",
+          "type": "TileMap::CollisionMask",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ],
+          "content": {
+            "tilemapJsonFile": "Nivel02.json",
+            "tilesetJsonFile": "Mapa de Tejas.json",
+            "collisionMaskTag": "Plataforma",
+            "layerIndex": 1,
+            "useAllLayers": true,
+            "debugMode": false,
+            "fillColor": "255;255;255",
+            "outlineColor": "255;255;255",
+            "fillOpacity": 64,
+            "outlineOpacity": 128,
+            "outlineSize": 1
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "MapeoNivel3",
+          "type": "TileMap::TileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "tilemapJsonFile": "Nivel03.json",
+            "tilesetJsonFile": "Mapa de Tejas.json",
+            "tilemapAtlasImage": "CastleTiles.png",
+            "displayMode": "visible",
+            "layerIndex": 0,
+            "levelIndex": 0,
+            "animationSpeedScale": 1,
+            "animationFps": 4
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "ColisionMap3",
+          "type": "TileMap::CollisionMask",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ],
+          "content": {
+            "tilemapJsonFile": "Nivel03.json",
+            "tilesetJsonFile": "Mapa de Tejas.json",
+            "collisionMaskTag": "Plataforma",
+            "layerIndex": 1,
+            "useAllLayers": true,
+            "debugMode": false,
+            "fillColor": "255;255;255",
+            "outlineColor": "255;255;255",
+            "fillOpacity": 64,
+            "outlineOpacity": 128,
+            "outlineSize": 1
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "MapeoNivel4",
+          "type": "TileMap::TileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "tilemapJsonFile": "Nivel04.json",
+            "tilesetJsonFile": "Mapa de Tejas.json",
+            "tilemapAtlasImage": "CastleTiles.png",
+            "displayMode": "visible",
+            "layerIndex": 0,
+            "levelIndex": 0,
+            "animationSpeedScale": 1,
+            "animationFps": 4
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "ColisionMap4",
+          "type": "TileMap::CollisionMask",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ],
+          "content": {
+            "tilemapJsonFile": "Nivel04.json",
+            "tilesetJsonFile": "Mapa de Tejas.json",
+            "collisionMaskTag": "Plataforma",
+            "layerIndex": 1,
+            "useAllLayers": true,
+            "debugMode": false,
+            "fillColor": "255;255;255",
+            "outlineColor": "255;255;255",
+            "fillOpacity": 64,
+            "outlineOpacity": 128,
+            "outlineSize": 1
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "PJ",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "acceleration": 1500,
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": true,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": false,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "slopeMaxAngle": 60,
+              "useLegacyTrajectory": false,
+              "useRepeatedJump": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 22,
+                            "y": 19
+                          },
+                          {
+                            "x": 42,
+                            "y": 19
+                          },
+                          {
+                            "x": 42,
+                            "y": 39
+                          },
+                          {
+                            "x": 22,
+                            "y": 39
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BGCaverna",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Fondo1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 384,
+                            "y": 0
+                          },
+                          {
+                            "x": 384,
+                            "y": 216
+                          },
+                          {
+                            "x": 0,
+                            "y": 216
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Fondo2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 384,
+                            "y": 0
+                          },
+                          {
+                            "x": 384,
+                            "y": 216
+                          },
+                          {
+                            "x": 0,
+                            "y": 216
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Fondo3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 384,
+                            "y": 0
+                          },
+                          {
+                            "x": 384,
+                            "y": 216
+                          },
+                          {
+                            "x": 0,
+                            "y": 216
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Fondo4",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 384,
+                            "y": 0
+                          },
+                          {
+                            "x": 384,
+                            "y": 216
+                          },
+                          {
+                            "x": 0,
+                            "y": 216
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Fondo5",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 384,
+                            "y": 0
+                          },
+                          {
+                            "x": 384,
+                            "y": 216
+                          },
+                          {
+                            "x": 0,
+                            "y": 216
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Fondo6",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 384,
+                            "y": 0
+                          },
+                          {
+                            "x": 384,
+                            "y": 216
+                          },
+                          {
+                            "x": 0,
+                            "y": 216
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Fondo7",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 384,
+                            "y": 0
+                          },
+                          {
+                            "x": 384,
+                            "y": 216
+                          },
+                          {
+                            "x": 0,
+                            "y": 216
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "MapeoNivel5",
+          "type": "TileMap::TileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "tilemapJsonFile": "Nivel05.json",
+            "tilesetJsonFile": "Mapa de Tejas.json",
+            "tilemapAtlasImage": "CastleTiles.png",
+            "displayMode": "visible",
+            "layerIndex": 0,
+            "levelIndex": 0,
+            "animationSpeedScale": 1,
+            "animationFps": 4
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "ColisionMap5",
+          "type": "TileMap::CollisionMask",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "content": {
+            "tilemapJsonFile": "Nivel05.json",
+            "tilesetJsonFile": "Mapa de Tejas.json",
+            "collisionMaskTag": "Plataforma",
+            "layerIndex": 1,
+            "useAllLayers": true,
+            "debugMode": false,
+            "fillColor": "255;255;255",
+            "outlineColor": "255;255;255",
+            "fillOpacity": 64,
+            "outlineOpacity": 128,
+            "outlineSize": 1
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "MapeoNivel6",
+          "type": "TileMap::TileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "tilemapJsonFile": "Nivel06.json",
+            "tilesetJsonFile": "Mapa de Tejas.json",
+            "tilemapAtlasImage": "CastleTiles.png",
+            "displayMode": "visible",
+            "layerIndex": 0,
+            "levelIndex": 0,
+            "animationSpeedScale": 1,
+            "animationFps": 4
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "ColisionMap6",
+          "type": "TileMap::CollisionMask",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "content": {
+            "tilemapJsonFile": "Nivel06.json",
+            "tilesetJsonFile": "Mapa de Tejas.json",
+            "collisionMaskTag": "Plataforma",
+            "layerIndex": 1,
+            "useAllLayers": true,
+            "debugMode": false,
+            "fillColor": "255;255;255",
+            "outlineColor": "255;255;255",
+            "fillOpacity": 64,
+            "outlineOpacity": 128,
+            "outlineSize": 1
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "MapeoNivel7",
+          "type": "TileMap::TileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "tilemapJsonFile": "Nivel07.json",
+            "tilesetJsonFile": "Mapa de Tejas.json",
+            "tilemapAtlasImage": "CastleTiles.png",
+            "displayMode": "visible",
+            "layerIndex": 0,
+            "levelIndex": 0,
+            "animationSpeedScale": 1,
+            "animationFps": 4
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "ColisionMap7",
+          "type": "TileMap::CollisionMask",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "content": {
+            "tilemapJsonFile": "Nivel07.json",
+            "tilesetJsonFile": "Mapa de Tejas.json",
+            "collisionMaskTag": "Plataforma",
+            "layerIndex": 1,
+            "useAllLayers": true,
+            "debugMode": false,
+            "fillColor": "255;255;255",
+            "outlineColor": "255;255;255",
+            "fillOpacity": 64,
+            "outlineOpacity": 128,
+            "outlineSize": 1
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "MapeoNivel8",
+          "type": "TileMap::TileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "tilemapJsonFile": "Nivel08.json",
+            "tilesetJsonFile": "Mapa de Tejas.json",
+            "tilemapAtlasImage": "CastleTiles.png",
+            "displayMode": "visible",
+            "layerIndex": 0,
+            "levelIndex": 0,
+            "animationSpeedScale": 1,
+            "animationFps": 4
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "ColisionMap8",
+          "type": "TileMap::CollisionMask",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "content": {
+            "tilemapJsonFile": "Nivel08.json",
+            "tilesetJsonFile": "Mapa de Tejas.json",
+            "collisionMaskTag": "Plataforma",
+            "layerIndex": 1,
+            "useAllLayers": true,
+            "debugMode": false,
+            "fillColor": "255;255;255",
+            "outlineColor": "255;255;255",
+            "fillOpacity": 64,
+            "outlineOpacity": 128,
+            "outlineSize": 1
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "MapeoNivel9",
+          "type": "TileMap::TileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "tilemapJsonFile": "Nivel09.json",
+            "tilesetJsonFile": "Mapa de Tejas.json",
+            "tilemapAtlasImage": "CastleTiles.png",
+            "displayMode": "visible",
+            "layerIndex": 0,
+            "levelIndex": 0,
+            "animationSpeedScale": 1,
+            "animationFps": 4
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "ColisionMap9",
+          "type": "TileMap::CollisionMask",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "content": {
+            "tilemapJsonFile": "Nivel09.json",
+            "tilesetJsonFile": "Mapa de Tejas.json",
+            "collisionMaskTag": "Plataforma",
+            "layerIndex": 1,
+            "useAllLayers": true,
+            "debugMode": false,
+            "fillColor": "255;255;255",
+            "outlineColor": "255;255;255",
+            "fillOpacity": 64,
+            "outlineOpacity": 128,
+            "outlineSize": 1
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "MapeoNivel10",
+          "type": "TileMap::TileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "tilemapJsonFile": "Nivel10.json",
+            "tilesetJsonFile": "Mapa de Tejas.json",
+            "tilemapAtlasImage": "CastleTiles.png",
+            "displayMode": "visible",
+            "layerIndex": 0,
+            "levelIndex": 0,
+            "animationSpeedScale": 1,
+            "animationFps": 4
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "ColisionMap10",
+          "type": "TileMap::CollisionMask",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "content": {
+            "tilemapJsonFile": "Nivel10.json",
+            "tilesetJsonFile": "Mapa de Tejas.json",
+            "collisionMaskTag": "Plataforma",
+            "layerIndex": 1,
+            "useAllLayers": true,
+            "debugMode": false,
+            "fillColor": "255;255;255",
+            "outlineColor": "255;255;255",
+            "fillOpacity": 64,
+            "outlineOpacity": 128,
+            "outlineSize": 1
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "folderName": "ColisonesMapas",
+            "children": [
+              {
+                "objectName": "ColisionMap10"
+              },
+              {
+                "objectName": "ColisionMap9"
+              },
+              {
+                "objectName": "ColisionMap8"
+              },
+              {
+                "objectName": "ColisionMap7"
+              },
+              {
+                "objectName": "ColisionMap6"
+              },
+              {
+                "objectName": "ColisionMap5"
+              },
+              {
+                "objectName": "ColisionMap4"
+              },
+              {
+                "objectName": "ColisionMap3"
+              },
+              {
+                "objectName": "ColisionMap2"
+              },
+              {
+                "objectName": "ColisionMap01"
+              }
+            ]
+          },
+          {
+            "folderName": "Mapas",
+            "children": [
+              {
+                "objectName": "MapeoNivel10"
+              },
+              {
+                "objectName": "MapeoNivel9"
+              },
+              {
+                "objectName": "MapeoNivel8"
+              },
+              {
+                "objectName": "MapeoNivel7"
+              },
+              {
+                "objectName": "MapeoNivel6"
+              },
+              {
+                "objectName": "MapeoNivel5"
+              },
+              {
+                "objectName": "MapeoNivel4"
+              },
+              {
+                "objectName": "MapeoNivel3"
+              },
+              {
+                "objectName": "MapeoNivel2"
+              },
+              {
+                "objectName": "MapeoNivel1"
+              }
+            ]
+          },
+          {
+            "objectName": "PJ"
+          },
+          {
+            "objectName": "BGCaverna"
+          }
+        ]
+      },
+      "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Background, Camara, Paralax",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Forzar Limites Camara"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ClampCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "510",
+                    "480",
+                    "320",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Camara Sigue Al Jugador"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "CentreCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "PJ",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Paralax"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetCameraCenterX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "CameraCenterX()*0.30",
+                    "\"BK1\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCameraCenterX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "CameraCenterX()*0.40",
+                    "\"BK2\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCameraCenterX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "CameraCenterX()*0.50",
+                    "\"BK3\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCameraCenterX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "CameraCenterX()*0.60",
+                    "\"BK4\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCameraCenterX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "CameraCenterX()*0.70",
+                    "\"BK5\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCameraCenterX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "CameraCenterX()*0.80",
+                    "\"BK6\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCameraCenterX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "CameraCenterX()*0.90",
+                    "\"BK7\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Bloquo Paralax Vertical"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetCameraCenterY"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "CameraCenterY()",
+                    "\"BK1\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCameraCenterY"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "CameraCenterY()",
+                    "\"BK2\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCameraCenterY"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "CameraCenterY()",
+                    "\"BK3\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCameraCenterY"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "CameraCenterY()",
+                    "\"BK4\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCameraCenterY"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "CameraCenterY()",
+                    "\"BK5\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCameraCenterY"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "CameraCenterY()",
+                    "\"BK6\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCameraCenterY"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "CameraCenterY()",
+                    "\"BK7\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "BK1",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "BK2",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "BK3",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "BK4",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "BK5",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "BK6",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "BK7",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        }
+      ]
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": []
+}
