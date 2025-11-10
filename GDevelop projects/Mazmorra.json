@@ -1269,6 +1269,94 @@
         "name": "NewSprite19",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "Nivel011.json",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "Nivel011.json",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "Nivel012.json",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "Nivel012.json",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "Nivel013.json",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "Nivel013.json",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "Nivel014.json",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "Nivel014.json",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "Nivel015.json",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "Nivel015.json",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "Nivel016.json",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "Nivel016.json",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "Nivel017.json",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "Nivel017.json",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "Nivel018.json",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "Nivel018.json",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "Nivel019.json",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "Nivel019.json",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "Nivel020.json",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "Nivel020.json",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "Nivel021.json",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "Nivel021.json",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2200,19 +2288,19 @@
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
-          "acceleration": 300,
-          "canGrabWithoutMoving": false,
+          "acceleration": 150,
           "deceleration": 1000,
           "gravity": 200,
-          "jumpSpeed": 250,
+          "jumpSpeed": 200,
+          "ladderClimbingSpeed": 150,
+          "maxSpeed": 100,
+          "canGrabWithoutMoving": false,
           "maxFallingSpeed": 500,
           "slopeMaxAngle": 60,
-          "maxSpeed": 250,
           "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
           "ignoreDefaultControls": false,
           "jumpSustainTime": 0.2,
-          "ladderClimbingSpeed": 150,
           "useLegacyTrajectory": false,
           "useRepeatedJump": false,
           "xGrabTolerance": 10,
@@ -5303,7 +5391,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.1951941454428046,
+        "zoomFactor": 0.4000714468006963,
         "windowMask": true,
         "selectedLayer": ""
       },
@@ -5335,8 +5423,8 @@
           "name": "ColisionMap01",
           "persistentUuid": "f9259bbf-8ba6-4717-be90-55f53d8c9474",
           "width": 0,
-          "x": 0,
-          "y": -320,
+          "x": -1,
+          "y": -318,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -5352,7 +5440,7 @@
           "persistentUuid": "1a63ee86-8a82-4fc1-8d04-ac487c801951",
           "width": 0,
           "x": 1600,
-          "y": -320,
+          "y": -319,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -5368,7 +5456,7 @@
           "persistentUuid": "f1fbf041-739e-49e3-bb79-a0ded4986ee3",
           "width": 0,
           "x": 1600,
-          "y": -320,
+          "y": -318,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -5400,7 +5488,7 @@
           "persistentUuid": "024e858e-7d97-40b0-b6ba-b43ccb022b86",
           "width": 0,
           "x": 3200,
-          "y": -320,
+          "y": -318,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -7368,8 +7456,8 @@
           "name": "PJ",
           "persistentUuid": "d7a2b566-02b6-4e01-8149-e7eec5fce304",
           "width": 0,
-          "x": 96,
-          "y": 160,
+          "x": 84,
+          "y": 153,
           "zOrder": 43,
           "numberProperties": [],
           "stringProperties": [],
@@ -7481,8 +7569,8 @@
           "name": "posicion_inicial_pj",
           "persistentUuid": "7531ecc4-244a-4790-bf89-fef36b7f1f2c",
           "width": 0,
-          "x": 96,
-          "y": 160,
+          "x": 88,
+          "y": 153,
           "zOrder": 54,
           "numberProperties": [],
           "stringProperties": [],
@@ -7492,14 +7580,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 95,
+          "height": 54,
           "keepRatio": true,
           "layer": "",
           "name": "Daño",
           "persistentUuid": "d294dd80-a24e-4dce-b271-d8b66d8f1c0f",
           "width": 5,
           "x": 2657,
-          "y": -32,
+          "y": 9,
           "zOrder": 55,
           "numberProperties": [],
           "stringProperties": [],
@@ -7599,9 +7687,9 @@
           "layer": "",
           "name": "Daño",
           "persistentUuid": "ada9e6bd-6696-41fa-b00d-502bf6db8418",
-          "width": 8,
-          "x": 1977,
-          "y": 195,
+          "width": 6,
+          "x": 1979,
+          "y": 198,
           "zOrder": 55,
           "numberProperties": [],
           "stringProperties": [],
@@ -7616,9 +7704,9 @@
           "layer": "",
           "name": "Daño",
           "persistentUuid": "a91f3e8f-8f20-4940-947d-4f99fafcd961",
-          "width": 8,
+          "width": 5,
           "x": 2016,
-          "y": 195,
+          "y": 198,
           "zOrder": 55,
           "numberProperties": [],
           "stringProperties": [],
@@ -7633,9 +7721,9 @@
           "layer": "",
           "name": "Daño",
           "persistentUuid": "4787900e-6a32-45b6-974f-b52b79ef1730",
-          "width": 22,
-          "x": 2373,
-          "y": 227,
+          "width": 13,
+          "x": 2379,
+          "y": 234,
           "zOrder": 55,
           "numberProperties": [],
           "stringProperties": [],
@@ -7650,9 +7738,9 @@
           "layer": "",
           "name": "Daño",
           "persistentUuid": "842e42c6-fb03-468e-8045-6d4a55c6feda",
-          "width": 22,
-          "x": 2503,
-          "y": 228,
+          "width": 13,
+          "x": 2506,
+          "y": 235,
           "zOrder": 55,
           "numberProperties": [],
           "stringProperties": [],
@@ -7667,9 +7755,9 @@
           "layer": "",
           "name": "Daño",
           "persistentUuid": "2c8a47fc-0a34-4d5b-8f19-927466d15867",
-          "width": 8,
+          "width": 4,
           "x": 2113,
-          "y": 223,
+          "y": 229,
           "zOrder": 55,
           "numberProperties": [],
           "stringProperties": [],
@@ -7684,9 +7772,9 @@
           "layer": "",
           "name": "Daño",
           "persistentUuid": "9565ee26-87e5-4b70-8b8e-9ab527ba3fb4",
-          "width": 8,
-          "x": 2073,
-          "y": 223,
+          "width": 5,
+          "x": 2076,
+          "y": 228,
           "zOrder": 55,
           "numberProperties": [],
           "stringProperties": [],
@@ -7701,9 +7789,9 @@
           "layer": "",
           "name": "Daño",
           "persistentUuid": "ecb50fab-360c-44e4-8438-d206811f9634",
-          "width": 8,
+          "width": 6,
           "x": 1919,
-          "y": 162,
+          "y": 167,
           "zOrder": 55,
           "numberProperties": [],
           "stringProperties": [],
@@ -7718,9 +7806,9 @@
           "layer": "",
           "name": "Daño",
           "persistentUuid": "2779eda0-715c-475b-85ab-ec4e8b7014cd",
-          "width": 8,
-          "x": 1880,
-          "y": 162,
+          "width": 6,
+          "x": 1883,
+          "y": 166,
           "zOrder": 55,
           "numberProperties": [],
           "stringProperties": [],
@@ -7730,14 +7818,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 121,
+          "height": 89,
           "keepRatio": true,
           "layer": "",
           "name": "Daño",
           "persistentUuid": "eb3e51df-76db-4b54-94fb-30e4357cc283",
           "width": 5,
           "x": 2817,
-          "y": 3,
+          "y": 35,
           "zOrder": 55,
           "numberProperties": [],
           "stringProperties": [],
@@ -7747,14 +7835,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 121,
+          "height": 119,
           "keepRatio": true,
           "layer": "",
           "name": "Daño",
           "persistentUuid": "116862f1-cc7f-4a73-b4e5-abc2bcd348ca",
           "width": 6,
           "x": 2746,
-          "y": 6,
+          "y": 8,
           "zOrder": 55,
           "numberProperties": [],
           "stringProperties": [],
@@ -7798,14 +7886,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 61,
+          "height": 27,
           "keepRatio": true,
           "layer": "",
           "name": "Daño",
           "persistentUuid": "aa388c7e-b7d1-4660-b878-d8e0c3cef233",
           "width": 6,
           "x": 2906,
-          "y": 66,
+          "y": 100,
           "zOrder": 55,
           "numberProperties": [],
           "stringProperties": [],
@@ -7832,82 +7920,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 62,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Daño",
-          "persistentUuid": "fe60d154-82e8-40a3-84a9-e01977262f69",
-          "width": 8,
-          "x": 1407,
-          "y": -158,
-          "zOrder": 55,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 62,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Daño",
-          "persistentUuid": "6ae57f7c-e11e-449f-9fe0-d24c600ed64a",
-          "width": 8,
-          "x": 1146,
-          "y": -158,
-          "zOrder": 55,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 62,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Daño",
-          "persistentUuid": "aeaa47ee-3cdb-4581-9f70-adb0bef4d04b",
-          "width": 8,
-          "x": 888,
-          "y": -124,
-          "zOrder": 55,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 34,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Daño",
-          "persistentUuid": "596df33e-a807-4223-9f25-a6b7ec2dc9d7",
-          "width": 8,
-          "x": 992,
-          "y": -98,
-          "zOrder": 55,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 120,
+          "height": 88,
           "keepRatio": true,
           "layer": "",
           "name": "Daño",
           "persistentUuid": "b546b42e-7adf-46ad-849d-8c9e81a76e70",
           "width": 8,
           "x": 766,
-          "y": -124,
+          "y": -92,
           "zOrder": 55,
           "numberProperties": [],
           "stringProperties": [],
@@ -7917,14 +7937,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 120,
+          "height": 90,
           "keepRatio": true,
           "layer": "",
           "name": "Daño",
           "persistentUuid": "79affe36-17ff-494a-beb2-31123f9a55ea",
           "width": 8,
           "x": 697,
-          "y": -124,
+          "y": -94,
           "zOrder": 55,
           "numberProperties": [],
           "stringProperties": [],
@@ -7934,14 +7954,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 120,
+          "height": 53,
           "keepRatio": true,
           "layer": "",
           "name": "Daño",
           "persistentUuid": "4b9cc55b-ba57-4af6-a5be-052fece4b85e",
           "width": 8,
           "x": 575,
-          "y": -158,
+          "y": -91,
           "zOrder": 55,
           "numberProperties": [],
           "stringProperties": [],
@@ -7990,9 +8010,9 @@
           "layer": "",
           "name": "Daño",
           "persistentUuid": "418fd8d2-3cd9-42d6-9c47-f8f673fe7134",
-          "width": 22,
-          "x": 197,
-          "y": 169,
+          "width": 12,
+          "x": 203,
+          "y": 171,
           "zOrder": 55,
           "numberProperties": [],
           "stringProperties": [],
@@ -8206,23 +8226,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 62,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Daño",
-          "persistentUuid": "e918c16b-2d5c-438c-88a0-80ce324b0a5b",
-          "width": 8,
-          "x": 1471,
-          "y": 33,
-          "zOrder": 55,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 37,
           "keepRatio": true,
           "layer": "",
@@ -8246,7 +8249,7 @@
           "name": "Daño",
           "persistentUuid": "d1b7a1e9-be6e-4eb4-952e-211a8dff4b43",
           "width": 8,
-          "x": 1370,
+          "x": 1304,
           "y": 195,
           "zOrder": 55,
           "numberProperties": [],
@@ -8274,14 +8277,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 28,
+          "height": 54,
           "keepRatio": true,
           "layer": "",
           "name": "Daño",
           "persistentUuid": "9d100bf8-fead-42a7-ae2c-15f283f67139",
           "width": 6,
-          "x": 3098,
-          "y": 259,
+          "x": 3066,
+          "y": 233,
           "zOrder": 55,
           "numberProperties": [],
           "stringProperties": [],
@@ -8314,8 +8317,8 @@
           "name": "Daño",
           "persistentUuid": "98fc77e8-8829-4ef9-b716-d11e0f7c24b2",
           "width": 8,
-          "x": 64,
-          "y": 100,
+          "x": 65,
+          "y": 95,
           "zOrder": 55,
           "numberProperties": [],
           "stringProperties": [],
@@ -8331,7 +8334,7 @@
           "effects": [],
           "behaviors": [],
           "content": {
-            "tilemapJsonFile": "Nivel01.json",
+            "tilemapJsonFile": "Nivel015.json",
             "tilesetJsonFile": "Mapa de Tejas.json",
             "tilemapAtlasImage": "CastleTiles.png",
             "displayMode": "visible",
@@ -8357,7 +8360,7 @@
             }
           ],
           "content": {
-            "tilemapJsonFile": "Nivel01.json",
+            "tilemapJsonFile": "Nivel015.json",
             "tilesetJsonFile": "Mapa de Tejas.json",
             "collisionMaskTag": "Plataforma",
             "layerIndex": 1,
@@ -8378,7 +8381,7 @@
           "effects": [],
           "behaviors": [],
           "content": {
-            "tilemapJsonFile": "Nivel02.json",
+            "tilemapJsonFile": "Nivel016.json",
             "tilesetJsonFile": "Mapa de Tejas.json",
             "tilemapAtlasImage": "CastleTiles.png",
             "displayMode": "visible",
@@ -8404,7 +8407,7 @@
             }
           ],
           "content": {
-            "tilemapJsonFile": "Nivel02.json",
+            "tilemapJsonFile": "Nivel016.json",
             "tilesetJsonFile": "Mapa de Tejas.json",
             "collisionMaskTag": "Plataforma",
             "layerIndex": 1,
@@ -8425,7 +8428,7 @@
           "effects": [],
           "behaviors": [],
           "content": {
-            "tilemapJsonFile": "Nivel03.json",
+            "tilemapJsonFile": "Nivel017.json",
             "tilesetJsonFile": "Mapa de Tejas.json",
             "tilemapAtlasImage": "CastleTiles.png",
             "displayMode": "visible",
@@ -8451,7 +8454,7 @@
             }
           ],
           "content": {
-            "tilemapJsonFile": "Nivel03.json",
+            "tilemapJsonFile": "Nivel017.json",
             "tilesetJsonFile": "Mapa de Tejas.json",
             "collisionMaskTag": "Plataforma",
             "layerIndex": 1,
@@ -8462,132 +8465,6 @@
             "fillOpacity": 64,
             "outlineOpacity": 128,
             "outlineSize": 1
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "MapeoNivel4",
-          "type": "TileMap::TileMap",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "tilemapJsonFile": "Nivel04.json",
-            "tilesetJsonFile": "Mapa de Tejas.json",
-            "tilemapAtlasImage": "CastleTiles.png",
-            "displayMode": "visible",
-            "layerIndex": 0,
-            "levelIndex": 0,
-            "animationSpeedScale": 1,
-            "animationFps": 4
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "MapeoNivel5",
-          "type": "TileMap::TileMap",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "tilemapJsonFile": "Nivel05.json",
-            "tilesetJsonFile": "Mapa de Tejas.json",
-            "tilemapAtlasImage": "CastleTiles.png",
-            "displayMode": "visible",
-            "layerIndex": 0,
-            "levelIndex": 0,
-            "animationSpeedScale": 1,
-            "animationFps": 4
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "MapeoNivel6",
-          "type": "TileMap::TileMap",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "tilemapJsonFile": "Nivel06.json",
-            "tilesetJsonFile": "Mapa de Tejas.json",
-            "tilemapAtlasImage": "CastleTiles.png",
-            "displayMode": "visible",
-            "layerIndex": 0,
-            "levelIndex": 0,
-            "animationSpeedScale": 1,
-            "animationFps": 4
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "MapeoNivel7",
-          "type": "TileMap::TileMap",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "tilemapJsonFile": "Nivel07.json",
-            "tilesetJsonFile": "Mapa de Tejas.json",
-            "tilemapAtlasImage": "CastleTiles.png",
-            "displayMode": "visible",
-            "layerIndex": 0,
-            "levelIndex": 0,
-            "animationSpeedScale": 1,
-            "animationFps": 4
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "MapeoNivel8",
-          "type": "TileMap::TileMap",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "tilemapJsonFile": "Nivel08.json",
-            "tilesetJsonFile": "Mapa de Tejas.json",
-            "tilemapAtlasImage": "CastleTiles.png",
-            "displayMode": "visible",
-            "layerIndex": 0,
-            "levelIndex": 0,
-            "animationSpeedScale": 1,
-            "animationFps": 4
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "MapeoNivel9",
-          "type": "TileMap::TileMap",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "tilemapJsonFile": "Nivel09.json",
-            "tilesetJsonFile": "Mapa de Tejas.json",
-            "tilemapAtlasImage": "CastleTiles.png",
-            "displayMode": "visible",
-            "layerIndex": 0,
-            "levelIndex": 0,
-            "animationSpeedScale": 1,
-            "animationFps": 4
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "MapeoNivel10",
-          "type": "TileMap::TileMap",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "tilemapJsonFile": "Nivel10.json",
-            "tilesetJsonFile": "Mapa de Tejas.json",
-            "tilemapAtlasImage": "CastleTiles.png",
-            "displayMode": "visible",
-            "layerIndex": 0,
-            "levelIndex": 0,
-            "animationSpeedScale": 1,
-            "animationFps": 4
           }
         },
         {
@@ -8661,10 +8538,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": false,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -8744,27 +8621,6 @@
           {
             "folderName": "Mapas",
             "children": [
-              {
-                "objectName": "MapeoNivel10"
-              },
-              {
-                "objectName": "MapeoNivel9"
-              },
-              {
-                "objectName": "MapeoNivel8"
-              },
-              {
-                "objectName": "MapeoNivel7"
-              },
-              {
-                "objectName": "MapeoNivel6"
-              },
-              {
-                "objectName": "MapeoNivel5"
-              },
-              {
-                "objectName": "MapeoNivel4"
-              },
               {
                 "objectName": "MapeoNivel3"
               },
@@ -9874,7 +9730,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.7030553796722356,
+        "zoomFactor": 0.6801214595611802,
         "windowMask": true,
         "selectedLayer": ""
       },
@@ -12044,15 +11900,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
           "keepRatio": true,
           "layer": "",
           "name": "PJ",
           "persistentUuid": "d7a2b566-02b6-4e01-8149-e7eec5fce304",
-          "width": 0,
-          "x": 192,
-          "y": -192,
+          "width": 32,
+          "x": 384,
+          "y": -128,
           "zOrder": 43,
           "numberProperties": [],
           "stringProperties": [],
@@ -12060,15 +11917,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
           "keepRatio": true,
           "layer": "",
           "name": "posicion_inicial_pj",
           "persistentUuid": "eec97870-4ee0-4ce4-944a-bff67e7c43a1",
-          "width": 0,
-          "x": 192,
-          "y": -192,
+          "width": 32,
+          "x": 384,
+          "y": -128,
           "zOrder": 44,
           "numberProperties": [],
           "stringProperties": [],
@@ -12286,60 +12144,6 @@
       "objects": [
         {
           "assetStoreId": "",
-          "name": "MapeoNivel1",
-          "type": "TileMap::TileMap",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "tilemapJsonFile": "Nivel01.json",
-            "tilesetJsonFile": "Mapa de Tejas.json",
-            "tilemapAtlasImage": "CastleTiles.png",
-            "displayMode": "visible",
-            "layerIndex": 0,
-            "levelIndex": 0,
-            "animationSpeedScale": 1,
-            "animationFps": 4
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "MapeoNivel2",
-          "type": "TileMap::TileMap",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "tilemapJsonFile": "Nivel02.json",
-            "tilesetJsonFile": "Mapa de Tejas.json",
-            "tilemapAtlasImage": "CastleTiles.png",
-            "displayMode": "visible",
-            "layerIndex": 0,
-            "levelIndex": 0,
-            "animationSpeedScale": 1,
-            "animationFps": 4
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "MapeoNivel3",
-          "type": "TileMap::TileMap",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "tilemapJsonFile": "Nivel03.json",
-            "tilesetJsonFile": "Mapa de Tejas.json",
-            "tilemapAtlasImage": "CastleTiles.png",
-            "displayMode": "visible",
-            "layerIndex": 0,
-            "levelIndex": 0,
-            "animationSpeedScale": 1,
-            "animationFps": 4
-          }
-        },
-        {
-          "assetStoreId": "",
           "name": "MapeoNivel4",
           "type": "TileMap::TileMap",
           "variables": [],
@@ -12393,7 +12197,7 @@
           "effects": [],
           "behaviors": [],
           "content": {
-            "tilemapJsonFile": "Nivel05.json",
+            "tilemapJsonFile": "Nivel018.json",
             "tilesetJsonFile": "Mapa de Tejas.json",
             "tilemapAtlasImage": "CastleTiles.png",
             "displayMode": "visible",
@@ -12419,7 +12223,7 @@
             }
           ],
           "content": {
-            "tilemapJsonFile": "Nivel05.json",
+            "tilemapJsonFile": "Nivel018.json",
             "tilesetJsonFile": "Mapa de Tejas.json",
             "collisionMaskTag": "Plataforma",
             "layerIndex": 1,
@@ -12440,7 +12244,7 @@
           "effects": [],
           "behaviors": [],
           "content": {
-            "tilemapJsonFile": "Nivel06.json",
+            "tilemapJsonFile": "Nivel021.json",
             "tilesetJsonFile": "Mapa de Tejas.json",
             "tilemapAtlasImage": "CastleTiles.png",
             "displayMode": "visible",
@@ -12466,7 +12270,7 @@
             }
           ],
           "content": {
-            "tilemapJsonFile": "Nivel06.json",
+            "tilemapJsonFile": "Nivel020.json",
             "tilesetJsonFile": "Mapa de Tejas.json",
             "collisionMaskTag": "Plataforma",
             "layerIndex": 1,
@@ -12534,7 +12338,7 @@
           "effects": [],
           "behaviors": [],
           "content": {
-            "tilemapJsonFile": "Nivel08.json",
+            "tilemapJsonFile": "Nivel019.json",
             "tilesetJsonFile": "Mapa de Tejas.json",
             "tilemapAtlasImage": "CastleTiles.png",
             "displayMode": "visible",
@@ -12560,7 +12364,7 @@
             }
           ],
           "content": {
-            "tilemapJsonFile": "Nivel08.json",
+            "tilemapJsonFile": "Nivel019.json",
             "tilesetJsonFile": "Mapa de Tejas.json",
             "collisionMaskTag": "Plataforma",
             "layerIndex": 1,
@@ -12677,10 +12481,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -12792,15 +12596,6 @@
               },
               {
                 "objectName": "MapeoNivel4"
-              },
-              {
-                "objectName": "MapeoNivel3"
-              },
-              {
-                "objectName": "MapeoNivel2"
-              },
-              {
-                "objectName": "MapeoNivel1"
               }
             ]
           }
@@ -14194,6 +13989,35 @@
               ]
             },
             {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+                  },
+                  "parameters": [
+                    "PJ",
+                    "PlatformerObject",
+                    "\"z\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "PJ",
+                    "Animation",
+                    "=",
+                    "\"Attack\""
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
