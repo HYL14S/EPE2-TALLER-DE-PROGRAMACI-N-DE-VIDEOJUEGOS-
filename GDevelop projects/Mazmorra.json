@@ -1357,6 +1357,170 @@
         "metadata": "",
         "name": "Nivel021.json",
         "userAdded": false
+      },
+      {
+        "file": "DARK DUNGEON AMBIENCE _ 1 HOUR HAND CRAFTED DUNGEON SOUNDSCAPE _ D&D, STORYTELLING, RELAXING, ASMR.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "DARK DUNGEON AMBIENCE _ 1 HOUR HAND CRAFTED DUNGEON SOUNDSCAPE _ D&D, STORYTELLING, RELAXING, ASMR.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Keemstar Screaming (Gritó!) Efecto Sonido 2021!.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Keemstar Screaming (Gritó!) Efecto Sonido 2021!.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../../../Desktop/Lively_NPCs_v3.0/individual sprites/medieval/adventurer_01/adventurer_01_00.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\Desktop\\Lively_NPCs_v3.0\\individual sprites\\medieval\\adventurer_01\\adventurer_01_00.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "fire_knight_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_knight_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "fire_knight_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_knight_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "fire_knight_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_knight_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "fire_knight_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_knight_4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "fire_knight_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_knight_5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "fire_knight_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_knight_6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "fire_knight_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_knight_7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "ground_monk_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ground_monk_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "ground_monk_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ground_monk_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "ground_monk_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ground_monk_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "ground_monk_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ground_monk_4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "metal_bladekeeper_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "metal_bladekeeper_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "metal_bladekeeper_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "metal_bladekeeper_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "metal_bladekeeper_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "metal_bladekeeper_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "metal_bladekeeper_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "metal_bladekeeper_4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite20",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/flecha.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "flecha",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -5310,11 +5474,595 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NPC_1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "acceleration": 1500,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "ignoreDefaultControls": true,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 250,
+          "name": "PlatformerObject",
+          "slopeMaxAngle": 60,
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "useLegacyTrajectory": false,
+          "useRepeatedJump": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "fire_knight_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 26,
+                        "y": 2
+                      },
+                      {
+                        "x": 26,
+                        "y": 31
+                      },
+                      {
+                        "x": 2,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "fire_knight_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 26,
+                        "y": 2
+                      },
+                      {
+                        "x": 26,
+                        "y": 31
+                      },
+                      {
+                        "x": 2,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "fire_knight_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 26,
+                        "y": 2
+                      },
+                      {
+                        "x": 26,
+                        "y": 31
+                      },
+                      {
+                        "x": 2,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "fire_knight_7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 26,
+                        "y": 2
+                      },
+                      {
+                        "x": 26,
+                        "y": 31
+                      },
+                      {
+                        "x": 2,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NPC_2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "acceleration": 1500,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "ignoreDefaultControls": true,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 250,
+          "name": "PlatformerObject",
+          "slopeMaxAngle": 60,
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "useLegacyTrajectory": false,
+          "useRepeatedJump": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ground_monk_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 3
+                      },
+                      {
+                        "x": 27,
+                        "y": 3
+                      },
+                      {
+                        "x": 27,
+                        "y": 31
+                      },
+                      {
+                        "x": 7,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ground_monk_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 3
+                      },
+                      {
+                        "x": 27,
+                        "y": 3
+                      },
+                      {
+                        "x": 27,
+                        "y": 31
+                      },
+                      {
+                        "x": 7,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ground_monk_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 3
+                      },
+                      {
+                        "x": 27,
+                        "y": 3
+                      },
+                      {
+                        "x": 27,
+                        "y": 31
+                      },
+                      {
+                        "x": 7,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ground_monk_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 3
+                      },
+                      {
+                        "x": 27,
+                        "y": 3
+                      },
+                      {
+                        "x": 27,
+                        "y": 31
+                      },
+                      {
+                        "x": 7,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NPC_3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "acceleration": 1500,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "ignoreDefaultControls": true,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 250,
+          "name": "PlatformerObject",
+          "slopeMaxAngle": 60,
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "useLegacyTrajectory": false,
+          "useRepeatedJump": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "metal_bladekeeper_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 3
+                      },
+                      {
+                        "x": 31,
+                        "y": 3
+                      },
+                      {
+                        "x": 31,
+                        "y": 31
+                      },
+                      {
+                        "x": 4,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "metal_bladekeeper_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 3
+                      },
+                      {
+                        "x": 31,
+                        "y": 3
+                      },
+                      {
+                        "x": 31,
+                        "y": 31
+                      },
+                      {
+                        "x": 4,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "metal_bladekeeper_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 3
+                      },
+                      {
+                        "x": 31,
+                        "y": 3
+                      },
+                      {
+                        "x": 31,
+                        "y": 31
+                      },
+                      {
+                        "x": 4,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "metal_bladekeeper_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 3
+                      },
+                      {
+                        "x": 31,
+                        "y": 3
+                      },
+                      {
+                        "x": 31,
+                        "y": 31
+                      },
+                      {
+                        "x": 4,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
+      {
+        "folderName": "NPC's",
+        "children": [
+          {
+            "objectName": "NPC_3"
+          },
+          {
+            "objectName": "NPC_2"
+          },
+          {
+            "objectName": "NPC_1"
+          }
+        ]
+      },
       {
         "folderName": "Interfaz",
         "children": [
@@ -5391,9 +6139,9 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4000714468006963,
+        "zoomFactor": 1.507508814700407,
         "windowMask": true,
-        "selectedLayer": ""
+        "selectedLayer": "UI"
       },
       "objectsGroups": [],
       "variables": [],
@@ -7569,8 +8317,8 @@
           "name": "posicion_inicial_pj",
           "persistentUuid": "7531ecc4-244a-4790-bf89-fef36b7f1f2c",
           "width": 0,
-          "x": 88,
-          "y": 153,
+          "x": 93,
+          "y": 160,
           "zOrder": 54,
           "numberProperties": [],
           "stringProperties": [],
@@ -9077,6 +9825,13 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Musica Y Sonido"
         }
       ],
       "layers": [
@@ -9093,7 +9848,7 @@
           "isLocked": false,
           "name": "BK1",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -9146,7 +9901,7 @@
           "isLocked": false,
           "name": "BK2",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -9199,7 +9954,7 @@
           "isLocked": false,
           "name": "BK3",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -9252,7 +10007,7 @@
           "isLocked": false,
           "name": "BK4",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -9305,7 +10060,7 @@
           "isLocked": false,
           "name": "BK5",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -9358,7 +10113,7 @@
           "isLocked": false,
           "name": "BK6",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -9411,7 +10166,7 @@
           "isLocked": false,
           "name": "BK7",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -9464,7 +10219,7 @@
           "isLocked": false,
           "name": "Muro invisible",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -9620,65 +10375,16 @@
               }
             }
           ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Layer",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Ambient Hemisphere Light",
-              "doubleParameters": {
-                "elevation": 40,
-                "intensity": 0.33,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "groundColor": "127;127;127",
-                "skyColor": "255;255;255",
-                "top": "Z+"
-              },
-              "booleanParameters": {}
-            },
-            {
-              "effectType": "Scene3D::DirectionalLight",
-              "name": "3D Sun Light",
-              "doubleParameters": {
-                "distanceFromCamera": 1500,
-                "elevation": 40,
-                "frustumSize": 4000,
-                "intensity": 0.75,
-                "minimumShadowBias": 0,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "color": "255;255;255",
-                "shadowQuality": "medium",
-                "top": "Z+"
-              },
-              "booleanParameters": {
-                "isCastingShadow": true
-              }
-            }
-          ]
         }
       ],
       "behaviorsSharedData": [
         {
           "name": "Animation",
           "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "DialogBoxBackGround",
+          "type": "DialogBox::DialogBoxBackGround"
         },
         {
           "name": "Effect",
@@ -9707,6 +10413,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ]
     },
@@ -9721,7 +10431,7 @@
       "title": "",
       "v": 20,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -9729,10 +10439,10 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 0.6801214595611802,
+        "snap": false,
+        "zoomFactor": 1.0125656005194832,
         "windowMask": true,
-        "selectedLayer": ""
+        "selectedLayer": "UI"
       },
       "objectsGroups": [],
       "variables": [],
@@ -9904,22 +10614,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Interfaz",
-          "name": "BGCaverna",
-          "persistentUuid": "eabea3b6-d965-491f-bf53-2a93c51cf8b4",
-          "width": 0,
-          "x": -110,
-          "y": -543,
-          "zOrder": 29,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 544,
@@ -9929,7 +10623,7 @@
           "persistentUuid": "c1752983-1b09-43ec-b94c-1a928c675520",
           "width": 968,
           "x": 952,
-          "y": -256,
+          "y": -201,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -9946,7 +10640,7 @@
           "persistentUuid": "f0506a5f-6c8c-40ae-b929-236fb4bd33af",
           "width": 968,
           "x": 925,
-          "y": -231,
+          "y": -176,
           "zOrder": 23,
           "numberProperties": [
             {
@@ -9968,7 +10662,7 @@
           "persistentUuid": "be55e9b8-8db0-4200-9c53-24e4879a13b4",
           "width": 968,
           "x": 952,
-          "y": -256,
+          "y": -201,
           "zOrder": 24,
           "numberProperties": [
             {
@@ -9990,7 +10684,7 @@
           "persistentUuid": "bc12b28b-e78f-4e44-b788-8bbd72be615e",
           "width": 968,
           "x": 952,
-          "y": -256,
+          "y": -201,
           "zOrder": 25,
           "numberProperties": [
             {
@@ -10012,7 +10706,7 @@
           "persistentUuid": "f709791a-606a-412d-aeef-f76999c932bf",
           "width": 968,
           "x": 952,
-          "y": -256,
+          "y": -201,
           "zOrder": 26,
           "numberProperties": [
             {
@@ -10034,7 +10728,7 @@
           "persistentUuid": "42f6c090-18ee-4c00-a160-1236967b44af",
           "width": 968,
           "x": 952,
-          "y": -256,
+          "y": -201,
           "zOrder": 27,
           "numberProperties": [
             {
@@ -10056,7 +10750,7 @@
           "persistentUuid": "6a78877f-f65b-41c5-b56a-aca53aafcab0",
           "width": 968,
           "x": 952,
-          "y": -256,
+          "y": -201,
           "zOrder": 28,
           "numberProperties": [
             {
@@ -10078,7 +10772,7 @@
           "persistentUuid": "d281c8ff-83cf-44b9-9712-8c1066b0e2ae",
           "width": 968,
           "x": 1920,
-          "y": -256,
+          "y": -200,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -10095,7 +10789,7 @@
           "persistentUuid": "10f8e222-a471-4c11-9c5d-4f3c6d4e36fc",
           "width": 968,
           "x": 1893,
-          "y": -231,
+          "y": -175,
           "zOrder": 23,
           "numberProperties": [
             {
@@ -10117,7 +10811,7 @@
           "persistentUuid": "be05c3c4-58c4-45f5-a5ea-3862527daca9",
           "width": 968,
           "x": 1920,
-          "y": -256,
+          "y": -200,
           "zOrder": 24,
           "numberProperties": [
             {
@@ -10139,7 +10833,7 @@
           "persistentUuid": "a91b1f79-a9a0-4b60-96ad-290c6861b9eb",
           "width": 968,
           "x": 1920,
-          "y": -256,
+          "y": -200,
           "zOrder": 25,
           "numberProperties": [
             {
@@ -10161,7 +10855,7 @@
           "persistentUuid": "3f950db8-060b-45d7-9629-cd7219a1676c",
           "width": 968,
           "x": 1920,
-          "y": -256,
+          "y": -200,
           "zOrder": 26,
           "numberProperties": [
             {
@@ -10183,7 +10877,7 @@
           "persistentUuid": "49929caa-a73a-4e76-8f6a-bba7cd7bdea3",
           "width": 968,
           "x": 1920,
-          "y": -256,
+          "y": -200,
           "zOrder": 27,
           "numberProperties": [
             {
@@ -10205,7 +10899,7 @@
           "persistentUuid": "9b36b851-2c2e-4473-b5e5-72aa3320f738",
           "width": 968,
           "x": 1920,
-          "y": -256,
+          "y": -200,
           "zOrder": 28,
           "numberProperties": [
             {
@@ -10226,8 +10920,8 @@
           "name": "BGCaverna",
           "persistentUuid": "06a03f03-22a0-4f41-84d0-7381479323b3",
           "width": 968,
-          "x": 2904,
-          "y": -256,
+          "x": 2902,
+          "y": -236,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -10243,8 +10937,8 @@
           "name": "BGCaverna",
           "persistentUuid": "cf60d34a-408d-4df0-8d82-fdbbb5e17381",
           "width": 968,
-          "x": 2877,
-          "y": -231,
+          "x": 2875,
+          "y": -211,
           "zOrder": 23,
           "numberProperties": [
             {
@@ -10265,8 +10959,8 @@
           "name": "BGCaverna",
           "persistentUuid": "91e020d3-f93b-44d4-98af-e83351a53a75",
           "width": 968,
-          "x": 2904,
-          "y": -256,
+          "x": 2902,
+          "y": -236,
           "zOrder": 24,
           "numberProperties": [
             {
@@ -10287,8 +10981,8 @@
           "name": "BGCaverna",
           "persistentUuid": "38c2cbe2-6933-4d80-b58c-3bac1b12a4bf",
           "width": 968,
-          "x": 2904,
-          "y": -256,
+          "x": 2902,
+          "y": -236,
           "zOrder": 25,
           "numberProperties": [
             {
@@ -10309,8 +11003,8 @@
           "name": "BGCaverna",
           "persistentUuid": "7fcc8228-5860-4372-baeb-8db9eda131ff",
           "width": 968,
-          "x": 2904,
-          "y": -256,
+          "x": 2902,
+          "y": -236,
           "zOrder": 26,
           "numberProperties": [
             {
@@ -10331,8 +11025,8 @@
           "name": "BGCaverna",
           "persistentUuid": "25866757-a14a-4631-941d-149433a0a2dc",
           "width": 968,
-          "x": 2904,
-          "y": -256,
+          "x": 2902,
+          "y": -236,
           "zOrder": 27,
           "numberProperties": [
             {
@@ -10353,8 +11047,8 @@
           "name": "BGCaverna",
           "persistentUuid": "d9b51102-becd-48e5-b4c7-9476204d096a",
           "width": 968,
-          "x": 2880,
-          "y": -256,
+          "x": 2878,
+          "y": -236,
           "zOrder": 28,
           "numberProperties": [
             {
@@ -10375,8 +11069,8 @@
           "name": "BGCaverna",
           "persistentUuid": "cf4903f4-6154-43b8-b587-2ad5ea963ed1",
           "width": 968,
-          "x": 3864,
-          "y": -256,
+          "x": 3874,
+          "y": -240,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -10392,8 +11086,8 @@
           "name": "BGCaverna",
           "persistentUuid": "058dc849-7dc4-4a90-a951-cbb99b15d77a",
           "width": 968,
-          "x": 3837,
-          "y": -231,
+          "x": 3847,
+          "y": -215,
           "zOrder": 23,
           "numberProperties": [
             {
@@ -10414,8 +11108,8 @@
           "name": "BGCaverna",
           "persistentUuid": "567a1c9a-adb9-405d-88e2-e34ba18b279e",
           "width": 968,
-          "x": 3864,
-          "y": -256,
+          "x": 3874,
+          "y": -240,
           "zOrder": 24,
           "numberProperties": [
             {
@@ -10436,8 +11130,8 @@
           "name": "BGCaverna",
           "persistentUuid": "f0ae38b1-2986-4ef8-be5f-d5a6e58091ef",
           "width": 968,
-          "x": 3864,
-          "y": -256,
+          "x": 3874,
+          "y": -240,
           "zOrder": 25,
           "numberProperties": [
             {
@@ -10458,8 +11152,8 @@
           "name": "BGCaverna",
           "persistentUuid": "da1a6963-c5dc-4bce-9d54-53850bca2b5d",
           "width": 968,
-          "x": 3864,
-          "y": -256,
+          "x": 3874,
+          "y": -240,
           "zOrder": 26,
           "numberProperties": [
             {
@@ -10480,8 +11174,8 @@
           "name": "BGCaverna",
           "persistentUuid": "9c325770-963e-471f-a561-266bd10c2f53",
           "width": 968,
-          "x": 3864,
-          "y": -256,
+          "x": 3874,
+          "y": -240,
           "zOrder": 27,
           "numberProperties": [
             {
@@ -10502,8 +11196,8 @@
           "name": "BGCaverna",
           "persistentUuid": "0426576c-0579-4e64-b41c-30c462d48c1b",
           "width": 968,
-          "x": 3864,
-          "y": -256,
+          "x": 3874,
+          "y": -240,
           "zOrder": 28,
           "numberProperties": [
             {
@@ -10651,8 +11345,8 @@
           "name": "BGCaverna",
           "persistentUuid": "3911bfa7-d0a1-4b6f-a7ed-bd62d92bee2e",
           "width": 968,
-          "x": 4832,
-          "y": 160,
+          "x": 4816,
+          "y": 147,
           "zOrder": 28,
           "numberProperties": [
             {
@@ -11843,7 +12537,7 @@
           "name": "MapeoNivel9",
           "persistentUuid": "6ab90adc-662f-4db8-93c4-7822dcb11143",
           "width": 0,
-          "x": 2880,
+          "x": 2887,
           "y": -160,
           "zOrder": 38,
           "numberProperties": [],
@@ -11859,7 +12553,7 @@
           "name": "ColisionMap9",
           "persistentUuid": "c3049cce-4546-498a-a5bd-54210dafce25",
           "width": 0,
-          "x": 2880,
+          "x": 2887,
           "y": -160,
           "zOrder": 39,
           "numberProperties": [],
@@ -11875,7 +12569,7 @@
           "name": "MapeoNivel10",
           "persistentUuid": "89521858-c69d-4b01-b4b1-d41c2b61cc32",
           "width": 0,
-          "x": 3520,
+          "x": 3527,
           "y": -160,
           "zOrder": 40,
           "numberProperties": [],
@@ -11891,7 +12585,7 @@
           "name": "ColisionMap10",
           "persistentUuid": "85d84a80-d0e8-40a8-b84f-084e3cabaa81",
           "width": 0,
-          "x": 3520,
+          "x": 3527,
           "y": -160,
           "zOrder": 41,
           "numberProperties": [],
@@ -11942,7 +12636,7 @@
           "persistentUuid": "064283c4-e471-47a8-83bb-e22a5ff9cd5b",
           "width": 0,
           "x": 0,
-          "y": -320,
+          "y": -319,
           "zOrder": 46,
           "numberProperties": [],
           "stringProperties": [],
@@ -12126,16 +12820,65 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 287,
           "keepRatio": true,
           "layer": "",
           "name": "Muro_invisible",
           "persistentUuid": "f4e0fbba-84ef-4986-8659-c1ef3b83feeb",
-          "width": 0,
-          "x": 4160,
-          "y": 96,
+          "width": 32,
+          "x": 4167,
+          "y": -147,
           "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NPC_3",
+          "persistentUuid": "0c0cff03-ac47-4d28-9378-deda7e3edb75",
+          "width": 0,
+          "x": 1344,
+          "y": 192,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NPC_1",
+          "persistentUuid": "46b4b67d-e745-477d-bbcc-79b121508440",
+          "width": 0,
+          "x": 3751,
+          "y": 0,
+          "zOrder": 49,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NPC_2",
+          "persistentUuid": "a03d437c-f3db-4b5f-a288-71920ab4a807",
+          "width": 0,
+          "x": 2784,
+          "y": 32,
+          "zOrder": 50,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12638,6 +13381,18 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+              },
+              "parameters": [
+                "",
+                "\"UI\"",
+                "",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -12925,6 +13680,13 @@
             "includeConfig": 0
           },
           "target": "Personaje"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Musica Y Sonido"
         }
       ],
       "layers": [
@@ -12941,7 +13703,7 @@
           "isLocked": false,
           "name": "BK1",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -12994,7 +13756,7 @@
           "isLocked": false,
           "name": "BK2",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -13047,7 +13809,7 @@
           "isLocked": false,
           "name": "BK3",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -13100,7 +13862,7 @@
           "isLocked": false,
           "name": "BK4",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -13153,7 +13915,7 @@
           "isLocked": false,
           "name": "BK5",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -13206,7 +13968,7 @@
           "isLocked": false,
           "name": "BK6",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -13259,7 +14021,7 @@
           "isLocked": false,
           "name": "BK7",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -13312,7 +14074,7 @@
           "isLocked": false,
           "name": "Muros invisibles",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -13476,6 +14238,10 @@
           "type": "AnimatableCapability::AnimatableBehavior"
         },
         {
+          "name": "DialogBoxBackGround",
+          "type": "DialogBox::DialogBoxBackGround"
+        },
+        {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
         },
@@ -13502,6 +14268,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ]
     },
@@ -13727,6 +14497,10 @@
           "type": "AnimatableCapability::AnimatableBehavior"
         },
         {
+          "name": "DialogBoxBackGround",
+          "type": "DialogBox::DialogBoxBackGround"
+        },
+        {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
         },
@@ -13753,6 +14527,10 @@
         {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ]
     }
@@ -13990,31 +14768,8 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
-                  },
-                  "parameters": [
-                    "PJ",
-                    "PlatformerObject",
-                    "\"z\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "PJ",
-                    "Animation",
-                    "=",
-                    "\"Attack\""
-                  ]
-                }
-              ]
+              "conditions": [],
+              "actions": []
             },
             {
               "folded": true,
@@ -14471,6 +15226,44 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "associatedLayout": "Nivel1",
+      "name": "Musica Y Sonido",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "DARK DUNGEON AMBIENCE _ 1 HOUR HAND CRAFTED DUNGEON SOUNDSCAPE _ D&D, STORYTELLING, RELAXING, ASMR.mp3",
+                "no",
+                "50",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ]
     }
