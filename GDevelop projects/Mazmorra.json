@@ -9776,7 +9776,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.7512693152212516,
+        "zoomFactor": 0.5574014994223007,
         "windowMask": true,
         "selectedLayer": "UI"
       },
@@ -11907,7 +11907,7 @@
           "width": 0,
           "x": 3521,
           "y": -159,
-          "zOrder": 40,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11923,7 +11923,7 @@
           "width": 0,
           "x": 3521,
           "y": -159,
-          "zOrder": 41,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11940,24 +11940,7 @@
           "width": 32,
           "x": 384,
           "y": -128,
-          "zOrder": 43,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "posicion_inicial_pj",
-          "persistentUuid": "eec97870-4ee0-4ce4-944a-bff67e7c43a1",
-          "width": 32,
-          "x": 384,
-          "y": -128,
-          "zOrder": 44,
+          "zOrder": 84,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11973,7 +11956,7 @@
           "width": 0,
           "x": 1,
           "y": -319,
-          "zOrder": 46,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12182,7 +12165,7 @@
           "width": 0,
           "x": 2783,
           "y": 31,
-          "zOrder": 48,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12198,7 +12181,7 @@
           "width": 0,
           "x": 3776,
           "y": 0,
-          "zOrder": 49,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12212,9 +12195,9 @@
           "name": "NPC_2",
           "persistentUuid": "a03d437c-f3db-4b5f-a288-71920ab4a807",
           "width": 0,
-          "x": 1355,
-          "y": 186,
-          "zOrder": 50,
+          "x": 1344,
+          "y": 192,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
