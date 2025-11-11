@@ -6317,7 +6317,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.26872054135282497,
+        "zoomFactor": 0.9475825490179042,
         "windowMask": true,
         "selectedLayer": "UI"
       },
@@ -7219,7 +7219,7 @@
           "depth": 1,
           "height": 96,
           "keepRatio": true,
-          "layer": "",
+          "layer": "BK7",
           "name": "Puerta",
           "persistentUuid": "d4bb13ef-e13c-4958-a791-e16f9a2b0ac1",
           "width": 96,
@@ -7267,7 +7267,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "BK7",
           "name": "Lock",
           "persistentUuid": "483c5afa-4a92-4640-a0dd-eb4a88704f03",
           "width": 0,
@@ -8728,18 +8728,6 @@
                 "True",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "PJ",
-                "Puerta",
-                "",
-                "",
-                ""
-              ]
             }
           ],
           "actions": [
@@ -8751,28 +8739,6 @@
                 "Interfaz_llave",
                 "="
               ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Lock",
-                "Animation",
-                "=",
-                "\"Open\""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Puerta",
-                "Animation",
-                "=",
-                "\"Abrir\""
-              ]
             }
           ],
           "events": [
@@ -8781,12 +8747,46 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "PJ",
+                    "Puerta",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Lock",
+                    "Animation",
+                    "=",
+                    "\"Open\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Puerta",
+                    "Animation",
+                    "=",
+                    "\"Abrir\""
+                  ]
+                },
                 {
                   "type": {
                     "value": "PlaySound"
@@ -9469,7 +9469,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 2.2443808334329316,
+        "zoomFactor": 0.7512693152212507,
         "windowMask": true,
         "selectedLayer": "UI"
       },
