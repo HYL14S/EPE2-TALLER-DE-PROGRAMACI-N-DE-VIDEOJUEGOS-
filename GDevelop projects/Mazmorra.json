@@ -6656,7 +6656,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.5075088147004159,
+        "zoomFactor": 0.8578431372549425,
         "windowMask": true,
         "selectedLayer": "UI"
       },
@@ -6722,7 +6722,7 @@
           "width": 0,
           "x": 1600,
           "y": -319,
-          "zOrder": 4,
+          "zOrder": -3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6754,7 +6754,7 @@
           "width": 0,
           "x": 3200,
           "y": -318,
-          "zOrder": 6,
+          "zOrder": -2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7531,7 +7531,7 @@
           "width": 0,
           "x": 96,
           "y": 160,
-          "zOrder": 43,
+          "zOrder": 57,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7558,13 +7558,13 @@
           "depth": 1,
           "height": 96,
           "keepRatio": true,
-          "layer": "BK7",
+          "layer": "",
           "name": "Puerta",
           "persistentUuid": "d4bb13ef-e13c-4958-a791-e16f9a2b0ac1",
           "width": 96,
           "x": 4576,
           "y": 128,
-          "zOrder": 47,
+          "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7606,13 +7606,13 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "BK7",
+          "layer": "",
           "name": "Lock",
           "persistentUuid": "483c5afa-4a92-4640-a0dd-eb4a88704f03",
           "width": 0,
           "x": 4612,
           "y": 160,
-          "zOrder": 51,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8376,7 +8376,24 @@
           "width": 0,
           "x": 96,
           "y": 160,
-          "zOrder": 57,
+          "zOrder": -4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sprite_revisar_coordenadas",
+          "persistentUuid": "757a6b28-a486-46bb-9a8d-3f7a7b2b6768",
+          "width": 32,
+          "x": 4672,
+          "y": 128,
+          "zOrder": 59,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8532,7 +8549,15 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
           "animations": [
             {
               "name": "NewSprite",
@@ -8668,10 +8693,10 @@
                 "objectName": "ColisionMap2"
               },
               {
-                "objectName": "Daño"
+                "objectName": "ColisionMap01"
               },
               {
-                "objectName": "ColisionMap01"
+                "objectName": "Daño"
               }
             ]
           },
@@ -8738,6 +8763,14 @@
               },
               "parameters": [
                 "Daño"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "sprite_revisar_coordenadas"
               ]
             }
           ]
@@ -9792,7 +9825,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.8867698910002527,
+        "zoomFactor": 0.7030553796722503,
         "windowMask": true,
         "selectedLayer": "UI"
       },
@@ -14184,7 +14217,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Asi que se suspende la exploracion de la mazmorra hasta que llegue el equipo de exploración",
+          "string": "Asi que se suspende la exploracion de la mazmorra hasta que llegue el equipo de excavación",
           "font": "44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
           "textAlignment": "center",
           "characterSize": 8,
@@ -14207,7 +14240,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Asi que se suspende la exploracion de la mazmorra hasta que llegue el equipo de exploración",
+            "text": "Asi que se suspende la exploracion de la mazmorra hasta que llegue el equipo de excavación",
             "font": "44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
             "textAlignment": "center",
             "verticalTextAlignment": "center",
@@ -14834,7 +14867,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "3"
+                "5"
               ]
             },
             {
@@ -14860,7 +14893,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "4"
+                "7"
               ]
             },
             {
