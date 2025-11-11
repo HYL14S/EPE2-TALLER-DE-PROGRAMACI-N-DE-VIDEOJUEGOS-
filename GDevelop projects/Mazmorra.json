@@ -1636,6 +1636,198 @@
         "name": "Ronson The.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "16x16 knight 3 v3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "16x16 knight 3 v3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "16x16 knight 4 v3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "16x16 knight 4 v3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Clarice-noctural-creature-hunter-Idle.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Clarice-noctural-creature-hunter-Idle.png\",\"extension\":\".png\"}",
+        "name": "Clarice-noctural-creature-hunter-Idle.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle18",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle19",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle20",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle21",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -5628,11 +5820,12 @@
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "fire_knight_1.png",
+                  "image": "Idle",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5648,27 +5841,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 2,
-                        "y": 2
+                        "x": 7,
+                        "y": 5
                       },
                       {
-                        "x": 26,
-                        "y": 2
+                        "x": 24,
+                        "y": 5
                       },
                       {
-                        "x": 26,
-                        "y": 31
+                        "x": 24,
+                        "y": 27
                       },
                       {
-                        "x": 2,
-                        "y": 31
+                        "x": 7,
+                        "y": 27
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "fire_knight_5.png",
+                  "image": "Idle2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5684,27 +5877,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 2,
-                        "y": 2
+                        "x": 7,
+                        "y": 5
                       },
                       {
-                        "x": 26,
-                        "y": 2
+                        "x": 24,
+                        "y": 5
                       },
                       {
-                        "x": 26,
-                        "y": 31
+                        "x": 24,
+                        "y": 27
                       },
                       {
-                        "x": 2,
-                        "y": 31
+                        "x": 7,
+                        "y": 27
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "fire_knight_6.png",
+                  "image": "Idle3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5720,27 +5913,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 2,
-                        "y": 2
+                        "x": 7,
+                        "y": 5
                       },
                       {
-                        "x": 26,
-                        "y": 2
+                        "x": 24,
+                        "y": 5
                       },
                       {
-                        "x": 26,
-                        "y": 31
+                        "x": 24,
+                        "y": 27
                       },
                       {
-                        "x": 2,
-                        "y": 31
+                        "x": 7,
+                        "y": 27
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "fire_knight_7.png",
+                  "image": "Idle4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5756,20 +5949,56 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 2,
-                        "y": 2
+                        "x": 7,
+                        "y": 5
                       },
                       {
-                        "x": 26,
-                        "y": 2
+                        "x": 24,
+                        "y": 5
                       },
                       {
-                        "x": 26,
-                        "y": 31
+                        "x": 24,
+                        "y": 27
                       },
                       {
-                        "x": 2,
-                        "y": 31
+                        "x": 7,
+                        "y": 27
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Idle5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 5
+                      },
+                      {
+                        "x": 24,
+                        "y": 5
+                      },
+                      {
+                        "x": 24,
+                        "y": 27
+                      },
+                      {
+                        "x": 7,
+                        "y": 27
                       }
                     ]
                   ]
@@ -5818,11 +6047,12 @@
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "ground_monk_1.png",
+                  "image": "Idle6",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5839,26 +6069,26 @@
                     [
                       {
                         "x": 7,
-                        "y": 3
+                        "y": 4
                       },
                       {
-                        "x": 27,
-                        "y": 3
+                        "x": 24,
+                        "y": 4
                       },
                       {
-                        "x": 27,
-                        "y": 31
+                        "x": 24,
+                        "y": 27
                       },
                       {
                         "x": 7,
-                        "y": 31
+                        "y": 27
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "ground_monk_2.png",
+                  "image": "Idle7",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5875,26 +6105,26 @@
                     [
                       {
                         "x": 7,
-                        "y": 3
+                        "y": 4
                       },
                       {
-                        "x": 27,
-                        "y": 3
+                        "x": 24,
+                        "y": 4
                       },
                       {
-                        "x": 27,
-                        "y": 31
+                        "x": 24,
+                        "y": 27
                       },
                       {
                         "x": 7,
-                        "y": 31
+                        "y": 27
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "ground_monk_3.png",
+                  "image": "Idle8",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5911,26 +6141,26 @@
                     [
                       {
                         "x": 7,
-                        "y": 3
+                        "y": 4
                       },
                       {
-                        "x": 27,
-                        "y": 3
+                        "x": 24,
+                        "y": 4
                       },
                       {
-                        "x": 27,
-                        "y": 31
+                        "x": 24,
+                        "y": 27
                       },
                       {
                         "x": 7,
-                        "y": 31
+                        "y": 27
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "ground_monk_4.png",
+                  "image": "Idle9",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5947,19 +6177,55 @@
                     [
                       {
                         "x": 7,
-                        "y": 3
+                        "y": 4
                       },
                       {
-                        "x": 27,
-                        "y": 3
+                        "x": 24,
+                        "y": 4
                       },
                       {
-                        "x": 27,
-                        "y": 31
+                        "x": 24,
+                        "y": 27
                       },
                       {
                         "x": 7,
-                        "y": 31
+                        "y": 27
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Idle10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 4
+                      },
+                      {
+                        "x": 24,
+                        "y": 4
+                      },
+                      {
+                        "x": 24,
+                        "y": 27
+                      },
+                      {
+                        "x": 7,
+                        "y": 27
                       }
                     ]
                   ]
@@ -6008,11 +6274,12 @@
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "metal_bladekeeper_1.png",
+                  "image": "Idle16",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6028,27 +6295,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 4,
+                        "x": 5,
                         "y": 3
                       },
                       {
-                        "x": 31,
+                        "x": 27,
                         "y": 3
                       },
                       {
-                        "x": 31,
-                        "y": 31
+                        "x": 27,
+                        "y": 28
                       },
                       {
-                        "x": 4,
-                        "y": 31
+                        "x": 5,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "metal_bladekeeper_2.png",
+                  "image": "Idle17",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6064,27 +6331,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 4,
+                        "x": 5,
                         "y": 3
                       },
                       {
-                        "x": 31,
+                        "x": 27,
                         "y": 3
                       },
                       {
-                        "x": 31,
-                        "y": 31
+                        "x": 27,
+                        "y": 28
                       },
                       {
-                        "x": 4,
-                        "y": 31
+                        "x": 5,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "metal_bladekeeper_3.png",
+                  "image": "Idle18",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6100,27 +6367,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 4,
+                        "x": 5,
                         "y": 3
                       },
                       {
-                        "x": 31,
+                        "x": 27,
                         "y": 3
                       },
                       {
-                        "x": 31,
-                        "y": 31
+                        "x": 27,
+                        "y": 28
                       },
                       {
-                        "x": 4,
-                        "y": 31
+                        "x": 5,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "metal_bladekeeper_4.png",
+                  "image": "Idle19",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6136,20 +6403,92 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 4,
+                        "x": 5,
                         "y": 3
                       },
                       {
-                        "x": 31,
+                        "x": 27,
                         "y": 3
                       },
                       {
-                        "x": 31,
-                        "y": 31
+                        "x": 27,
+                        "y": 28
                       },
                       {
-                        "x": 4,
-                        "y": 31
+                        "x": 5,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Idle20",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 3
+                      },
+                      {
+                        "x": 27,
+                        "y": 3
+                      },
+                      {
+                        "x": 27,
+                        "y": 28
+                      },
+                      {
+                        "x": 5,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Idle21",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 3
+                      },
+                      {
+                        "x": 27,
+                        "y": 3
+                      },
+                      {
+                        "x": 27,
+                        "y": 28
+                      },
+                      {
+                        "x": 5,
+                        "y": 28
                       }
                     ]
                   ]
@@ -6308,7 +6647,7 @@
       "title": "",
       "v": 20,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -6316,8 +6655,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.9475825490179042,
+        "snap": true,
+        "zoomFactor": 0.5956268238349965,
         "windowMask": true,
         "selectedLayer": "UI"
       },
@@ -7190,8 +7529,8 @@
           "name": "PJ",
           "persistentUuid": "d7a2b566-02b6-4e01-8149-e7eec5fce304",
           "width": 0,
-          "x": 4426,
-          "y": -211,
+          "x": 96,
+          "y": 160,
           "zOrder": 43,
           "numberProperties": [],
           "stringProperties": [],
@@ -7274,22 +7613,6 @@
           "x": 4612,
           "y": 160,
           "zOrder": 51,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "posicion_inicial_pj",
-          "persistentUuid": "7531ecc4-244a-4790-bf89-fef36b7f1f2c",
-          "width": 0,
-          "x": 4435,
-          "y": -204,
-          "zOrder": 54,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8038,22 +8361,6 @@
           "x": 2205,
           "y": 259,
           "zOrder": 56,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "llave_nivel",
-          "persistentUuid": "f01d3b2d-ed08-4f64-86f3-94b938dcd8fb",
-          "width": 0,
-          "x": 4490,
-          "y": -5,
-          "zOrder": 57,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9460,7 +9767,7 @@
       "title": "",
       "v": 20,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -9468,8 +9775,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.7512693152212507,
+        "snap": true,
+        "zoomFactor": 0.7512693152212516,
         "windowMask": true,
         "selectedLayer": "UI"
       },
@@ -11889,8 +12196,8 @@
           "name": "NPC_1",
           "persistentUuid": "46b4b67d-e745-477d-bbcc-79b121508440",
           "width": 0,
-          "x": 3753,
-          "y": 1,
+          "x": 3776,
+          "y": 0,
           "zOrder": 49,
           "numberProperties": [],
           "stringProperties": [],
@@ -15603,11 +15910,6 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
@@ -15805,7 +16107,19 @@
                   ]
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "PJ",
+                    "Animation",
+                    "=",
+                    "\"Takin damage\""
+                  ]
+                }
+              ],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
